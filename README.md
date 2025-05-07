@@ -58,6 +58,6 @@ The topologies are as follows
 
 - **Nodes 1, 2, 3, 4 and 5**: These are all *normal UDP client nodes*, responsible for sensing and forwarding data within the network.
 
-- **Nodes 7 and 8**: These are *normal UDP client nodes* in the normal simulation, and act as wormhole nodes which intercept and modify the packets and forward the packets to each other.
+- **Nodes 7 and 8**: These are *normal UDP client nodes* in the normal simulation, and act as wormhole nodes which intercept and modify the packets and forward the packets to each other in the wormhole simulation.
 
 
