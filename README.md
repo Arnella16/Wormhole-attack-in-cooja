@@ -39,3 +39,13 @@ The authors introduced a detection scheme that is energy-efficient and designed 
 
 The detection scheme is based on analyzing the timing and distance between packets sent within the network. By observing the Time-to-Live (TTL) field in the packet headers, the scheme can identify unusual behaviors or discrepancies caused by the wormhole tunnel. The TTL value is an effective measure because wormhole attacks often result in abnormal packet forwarding behavior, causing discrepancies in the TTL values as packets travel through the malicious tunnel, bypassing the normal routing path.
 
+### Implementation of the Attack
+
+The wormhole attack was implemented using the Contiki-NG operating system and the Cooja network simulator, which provides a visual and interactive environment to emulate IoT networks. 
+
+To download and install cooja simulator follow [Step-by-Step: Setup Contiki-NG Cooja IoT Network Simulator on Linux System](https://www.youtube.com/watch?v=a4radETt04U)
+
+The implementation proceeded in two phases: first, we set up a baseline (normal) topology consisting entirely of legitimate nodes, and second, we simulated the wormhole attack by reconfiguring two specific nodes (nodes 7 and 8) as malicious.
+
+
+
