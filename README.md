@@ -112,6 +112,6 @@ if(msg.dest_id == my_id) {
 The simulation outputs of wormhole simulation and normal simulation are as follows
 
 <p>
-    <img src="examples/rpl-udp/with wormholw.jpg" hspace="5" width="400">
-    <img src="examples/rpl-udp/normal.jpg" hspace="5" width="400">
+    <img src="examples/rpl-udp/with wormholw.jpg" vspace="5" width="800">
+    <img src="examples/rpl-udp/normal.jpg" hspace="5" width="800">
 </p>
