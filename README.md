@@ -30,3 +30,12 @@ With the increasing prevalence of IoT devices, low-power and lossy networks (LLN
 In this project, we developed a simulation of a wormhole attack within an IoT network using the Contiki-NG operating system and the Cooja simulator. The goal was to demonstrate the impact of a wormhole attack on RPL-based networks and to propose a method to detect such attacks without the need for additional hardware. Our detection approach involves monitoring the network for abnormal packet forwarding patterns and measuring discrepancies in the expected round-trip times of packets. Identifying these anomalies can help us locate the wormhole nodes and mitigate the impact of the attack.
 
 The results of our implementation show that it is feasible to detect wormhole attacks in resource-constrained IoT environments using software-based techniques. This is significant as it enhances the security of IoT networks without requiring additional infrastructure, thus providing a cost-effective solution to protect low-power, lossy networks from malicious interference.
+
+### Literature review 
+
+The paper "A Novel Detection and Localization Scheme for Wormhole Attack in Internet of Things" proposes a novel detection and localization scheme specifically designed to identify and locate wormhole attacks in Internet of Things (IoT) networks. The main contribution is the development of a lightweight, energy-efficient, and accurate mechanism that addresses the challenges of detecting wormhole attacks in resource-constrained IoT environments.
+
+The authors introduced a detection scheme that is energy-efficient and designed to operate within the limitations of typical IoT devices. This is especially important because IoT devices are often battery-powered and have limited processing capabilities, which can hinder the implementation of complex security mechanisms. Thus, a solution that minimizes computational overhead while effectively detecting attacks is crucial for the practical deployment of IoT networks.
+
+The detection scheme is based on analyzing the timing and distance between packets sent within the network. By observing the Time-to-Live (TTL) field in the packet headers, the scheme can identify unusual behaviors or discrepancies caused by the wormhole tunnel. The TTL value is an effective measure because wormhole attacks often result in abnormal packet forwarding behavior, causing discrepancies in the TTL values as packets travel through the malicious tunnel, bypassing the normal routing path.
+
