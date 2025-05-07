@@ -106,3 +106,12 @@ if(msg.dest_id == my_id) {
     return; // Do nothing; we are the destination
 }
 ```
+
+### Results and Analysis
+
+The simulation outputs of wormhole simulation and normal simulation are as follows
+
+<p>
+    <img src="examples/rpl-udp/with wormholw.jpg" hspace="5" width="400">
+    <img src="examples/rpl-udp/normal.jpg" hspace="5" width="400">
+</p>
