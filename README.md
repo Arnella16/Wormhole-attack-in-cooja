@@ -60,4 +60,7 @@ The topologies are as follows
 
 - **Nodes 7 and 8**: These are *normal UDP client nodes* in the normal simulation, and act as wormhole nodes which intercept and modify the packets and forward the packets to each other in the wormhole simulation.
 
+The codes for the normal and wormhole nodes can be found in the [rpl-udp folder](examples/rpl-udp)
+
+
 
