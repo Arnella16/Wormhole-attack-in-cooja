@@ -115,3 +115,19 @@ The simulation outputs of wormhole simulation and normal simulation are as follo
     <img src="examples/rpl-udp/with wormholw.jpg" vspace="5" width="800">
     <img src="examples/rpl-udp/normal.jpg" hspace="5" width="800">
 </p>
+
+In our simulation, we measured the Round Trip Time (RTT) for communication between Node 5 and the server (presumably Node 6). The observed RTT values were:
+
+- **Normal Simulation: 42 ticks**
+
+- **Wormhole Simulation: 80 ticks**
+
+This 90% increase in RTT in the presence of the wormhole attack is significant and counterintuitive at first glance. A wormhole typically creates a shortcut between distant nodes, which would ideally reduce hop count and potentially RTT. However, in our simulation, the following factors contributed to the increased RTT:
+
+- **Tunneling Overhead**: The wormhole nodes act as intermediaries that capture, encapsulate, and forward packets through an artificial link. This adds extra processing delay compared to normal multi-hop forwarding.
+
+- **Lack of True Physical Layer Optimization**: Unlike real wormholes that exploit fast physical links, the simulated wormhole operates at a higher abstraction layer (e.g., application or transport), introducing additional software-level delays.
+
+- **Packet Modification or Buffering**: The malicious nodes may buffer, modify, or delay packets to simulate tunnel behavior, which further increases the time taken for a full round trip.
+
+- **Bypassing Natural Routing Efficiency**: In some cases, the normal topology may actually provide a more optimized route based on RPL (Routing Protocol for Low-Power and Lossy Networks). The artificial shortcut may bypass these routes, but at the cost of increased latency. It can be seen that in the wormhole simulation the node 7 is forwarding the packet to node 8 and then it is being forwarded to 5 causing it to go in a cyclic manner to the node 5 without following the optimized route as given in the normal simulation.
