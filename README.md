@@ -23,7 +23,7 @@ the source code.
 
 Contiki-NG started as a fork of the Contiki OS and retains some of its original features.
 
-#### Abstract
+### Abstract
 
 With the increasing prevalence of IoT devices, low-power and lossy networks (LLNs) have become integral to many applications. One commonly used routing protocol in these networks is the RPL (Routing Protocol for Low-Power and Lossy Networks). However, RPL is vulnerable to various security threats, particularly wormhole attacks, where two or more malicious nodes collude to create a tunnel, forwarding packets between distant network points. This attack disrupts normal routing, increases delays, and may even lead to network partitioning.
 
