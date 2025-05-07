@@ -23,16 +23,8 @@ the source code.
 
 Contiki-NG started as a fork of the Contiki OS and retains some of its original features.
 
-Find out more:
+With the increasing prevalence of IoT devices, low-power and lossy networks (LLNs) have become integral to many applications. One commonly used routing protocol in these networks is the RPL (Routing Protocol for Low-Power and Lossy Networks). However, RPL is vulnerable to various security threats, particularly wormhole attacks, where two or more malicious nodes collude to create a tunnel, forwarding packets between distant network points. This attack disrupts normal routing, increases delays, and may even lead to network partitioning.
 
-* GitHub repository: https://github.com/contiki-ng/contiki-ng
-* Documentation: https://docs.contiki-ng.org/
-* List of releases and changes: https://github.com/contiki-ng/contiki-ng/releases
-* Web site: http://contiki-ng.org
+In this project, we developed a simulation of a wormhole attack within an IoT network using the Contiki-NG operating system and the Cooja simulator. The goal was to demonstrate the impact of a wormhole attack on RPL-based networks and to propose a method to detect such attacks without the need for additional hardware. Our detection approach involves monitoring the network for abnormal packet forwarding patterns and measuring discrepancies in the expected round-trip times of packets. Identifying these anomalies can help us locate the wormhole nodes and mitigate the impact of the attack.
 
-Engage with the community:
-
-* Discussions on GitHub: https://github.com/contiki-ng/contiki-ng/discussions
-* Contiki-NG tag on Stack Overflow: https://stackoverflow.com/questions/tagged/contiki-ng
-* Gitter: https://gitter.im/contiki-ng
-* Twitter: https://twitter.com/contiki_ng
+The results of our implementation show that it is feasible to detect wormhole attacks in resource-constrained IoT environments using software-based techniques. This is significant as it enhances the security of IoT networks without requiring additional infrastructure, thus providing a cost-effective solution to protect low-power, lossy networks from malicious interference.
