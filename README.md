@@ -47,5 +47,10 @@ To download and install cooja simulator follow [Step-by-Step: Setup Contiki-NG C
 
 The implementation proceeded in two phases: first, we set up a baseline (normal) topology consisting entirely of legitimate nodes, and second, we simulated the wormhole attack by reconfiguring two specific nodes (nodes 7 and 8) as malicious.
 
+The topologies are as follows 
 
+<p>
+    <img src="examples/rpl-udp/Normal too" hspace="10" >
+    <img src="examples/rpl-udp/Normal too" hspace="10" >
+</p>
 
