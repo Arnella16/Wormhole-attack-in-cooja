@@ -54,3 +54,10 @@ The topologies are as follows
     <img src="examples/rpl-udp/Wormhole attack.drawio (3).png" hspace="5" width="450">
 </p>
 
+- **Node 6**: Acts as the *Border Router (root node)*. It connects the internal IoT network to the external Internet (represented by a cloud symbol).
+
+- **Nodes 1, 2, 3, 4 and 5**: These are all *normal UDP client nodes*, responsible for sensing and forwarding data within the network.
+
+- **Nodes 7 and 8**: These are *normal UDP client nodes* in the normal simulation, and act as wormhole nodes which intercept and modify the packets and forward the packets to each other.
+
+
