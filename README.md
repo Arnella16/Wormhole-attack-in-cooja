@@ -75,4 +75,17 @@ cd ../..
 cd tools/cooja
 ./gradlew run
 ```
-And open the simulation [Wormhole attack.csc](examples/rpl-udp/Wormhole-v8.csc)
+And open the simulation [Wormhole simulation.csc](examples/rpl-udp/Wormhole-v8.csc)
+
+To run the normal simulation do the following 
+```
+cd examples/rpl-udp
+export PATH=/usr/local/msp430/bin/:$PATH
+make udp-client-normal TARGET=sky
+make udp-server-normal TARGET=sky
+
+cd ../..
+cd tools/cooja
+./gradlew run
+```
+And open the simulation [Normal simulation.csc](examples/rpl-udp/Normal-v1.csc)
