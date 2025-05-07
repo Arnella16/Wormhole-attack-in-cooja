@@ -1,4 +1,4 @@
-CONTIKI_PROJECT = udp-client udp-server
+CONTIKI_PROJECT = wormhole-mote normal-mote border-router
 all: $(CONTIKI_PROJECT)
 
 CONTIKI=../..

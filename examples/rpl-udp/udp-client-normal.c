@@ -100,7 +100,7 @@ LOG_INFO("Received msg destined to ID: %u\n", msg.dest_id);
   simple_udp_sendto(&udp_conn_client, &msg, sizeof(msg), &next_hop_ipaddr);
   LOG_INFO("Forwarding packet to next hop %u [", next_hop_id);
   LOG_INFO_6ADDR(&next_hop_ipaddr);
-  LOG_INFO("\nForwarded flag: %u\n", msg.forwarded_flag);
+  //LOG_INFO("\nForwarded flag: %u\n", msg.forwarded_flag);
   LOG_INFO_("]\n");
 
   
@@ -164,6 +164,26 @@ static void initialize_forwarding_table() {
   forwarding_table[5][6] = 2;
   forwarding_table[5][7] = 2;
   forwarding_table[5][8] = 2;
+  
+  // Node 7
+  forwarding_table[7][1] = 6;
+  forwarding_table[7][2] = 2;
+  forwarding_table[7][3] = 6;
+  forwarding_table[7][4] = 6;
+  forwarding_table[7][5] = 2;
+  forwarding_table[7][6] = 6;
+  forwarding_table[7][7] = 7;
+  forwarding_table[7][8] = 6;
+  
+  // Node 8
+  forwarding_table[8][1] = 3;
+  forwarding_table[8][2] = 3;
+  forwarding_table[8][3] = 3;
+  forwarding_table[8][4] = 4;
+  forwarding_table[8][5] = 3;
+  forwarding_table[8][6] = 3;
+  forwarding_table[8][7] = 3;
+  forwarding_table[8][8] = 8;
   
 }
 
