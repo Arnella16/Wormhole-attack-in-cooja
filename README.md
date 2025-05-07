@@ -62,5 +62,17 @@ The topologies are as follows
 
 The codes for the normal and wormhole nodes can be found in the [rpl-udp folder](examples/rpl-udp)
 
+To run the wormhole simulation do the following 
+```
+cd examples/rpl-udp
+export PATH=/usr/local/msp430/bin/:$PATH
+make udp-client TARGET=sky
+make udp-server TARGET=sky
+make wormhole_node1 TARGET=sky
+make wormhole_node2 TARGET=sky
 
-
+cd ../..
+cd tools/cooja
+./gradlew run
+```
+And open the simulation [Wormhole attack.csc](examples/rpl-udp/Wormhole-v8.csc)
