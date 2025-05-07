@@ -50,7 +50,7 @@ The implementation proceeded in two phases: first, we set up a baseline (normal)
 The topologies are as follows 
 
 <p>
-    <img src="examples/rpl-udp/Normal too.drawio.png" hspace="10" width="500">
-    <img src="examples/rpl-udp/Wormhole attack.drawio (3).png" hspace="10" width="500">
+    <img src="examples/rpl-udp/Normal too.drawio.png" hspace="5" width="450">
+    <img src="examples/rpl-udp/Wormhole attack.drawio (3).png" hspace="5" width="450">
 </p>
 
