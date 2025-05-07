@@ -50,8 +50,8 @@ The implementation proceeded in two phases: first, we set up a baseline (normal)
 The topologies are as follows 
 
 <p>
-    <img src="examples/rpl-udp/Normal too.drawio.png" hspace="5" width="450">
-    <img src="examples/rpl-udp/Wormhole attack.drawio (3).png" hspace="5" width="450">
+    <img src="examples/rpl-udp/Normal too.drawio.png" hspace="5" width="400">
+    <img src="examples/rpl-udp/Wormhole attack.drawio (3).png" hspace="5" width="400">
 </p>
 
 - **Node 6**: Acts as the *Border Router (root node)*. It connects the internal IoT network to the external Internet (represented by a cloud symbol).
