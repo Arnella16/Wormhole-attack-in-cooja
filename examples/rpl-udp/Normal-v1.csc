@@ -77,7 +77,7 @@
       <mote>
         <interface_config>
           org.contikios.cooja.interfaces.Position
-          <pos x="83.65666204645312" y="68.21907624243127" />
+          <pos x="75.85628208501318" y="62.93494788145582" />
         </interface_config>
         <interface_config>
           org.contikios.cooja.mspmote.interfaces.MspMoteID

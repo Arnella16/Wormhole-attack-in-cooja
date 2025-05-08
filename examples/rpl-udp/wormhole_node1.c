@@ -106,6 +106,7 @@ PROCESS_THREAD(wormhole_node_a_process, ev, data)
   
   LOG_INFO("Wormhole Node A started\n");
 
+
   /* Use a manual IP within the DAG's prefix (assuming root uses aaaa::/64) */
   uip_ipaddr_t my_ip;
   set_ipaddr(&my_ip, 7);
@@ -122,7 +123,7 @@ PROCESS_THREAD(wormhole_node_a_process, ev, data)
   simple_udp_register(&udp_conn_forward, UDP_CLIENT_PORT, NULL,
                       UDP_SERVER_PORT, udp_rx_callback);
           
-  LOG_INFO("Initialised\n");        
+  LOG_INFO("Initialised\n");       
   
   PROCESS_END();
 }

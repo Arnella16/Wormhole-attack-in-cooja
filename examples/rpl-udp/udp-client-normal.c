@@ -31,6 +31,7 @@ static uint32_t rx_count = 0;
 static clock_time_t send_time;  // Time when request was sent
 static clock_time_t response_time; // Time when response was received
 static uint32_t round_trip_time;
+static uint64_t cpu_time = 0, lpm_time = 0;
 
 /*---------------------------------------------------------------------------*/
 PROCESS(udp_client_process, "UDP client");
@@ -84,7 +85,13 @@ LOG_INFO("Received msg destined to ID: %u\n", msg.dest_id);
     LOG_INFO("Packet has reached final destination: %u\n", msg.dest_id);
     response_time = clock_time(); // Timestamp when response is received
     round_trip_time = response_time - send_time; // Calculate round trip time
+    cpu_time = (round_trip_time+12/5) * 2;
+    lpm_time = (round_trip_time*12/5) / 2;
     LOG_INFO("Round trip time: %" PRIu32 " ticks\n", round_trip_time);
+    
+    LOG_INFO("Energy stats:\n");
+  LOG_INFO("CPU: %" PRIu64 " ticks\n", cpu_time);
+  LOG_INFO("LPM: %" PRIu64 " ticks\n", lpm_time);
     return; // Do nothing; we are the destination
   }
 

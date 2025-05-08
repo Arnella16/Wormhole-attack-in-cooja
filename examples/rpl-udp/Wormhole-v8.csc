@@ -189,7 +189,7 @@
       <skin>org.contikios.cooja.plugins.skins.UDGMVisualizerSkin</skin>
       <viewport>6.2608597109538175 0.0 0.0 6.2608597109538175 33.276180307219335 176.3302585303084</viewport>
     </plugin_config>
-    <bounds x="1" y="1" height="1365" width="928" />
+    <bounds x="1" y="1" height="1365" width="928" z="1" />
   </plugin>
   <plugin>
     org.contikios.cooja.plugins.LogListener
@@ -198,7 +198,7 @@
       <formatted_time />
       <coloring />
     </plugin_config>
-    <bounds x="927" y="160" height="1210" width="1613" z="3" />
+    <bounds x="927" y="160" height="1210" width="1613" />
   </plugin>
   <plugin>
     org.contikios.cooja.plugins.TimeLine
@@ -216,7 +216,7 @@
       <showLEDs />
       <zoomfactor>500.0</zoomfactor>
     </plugin_config>
-    <bounds x="0" y="1369" height="253" width="2540" z="1" />
+    <bounds x="0" y="1369" height="253" width="2540" z="2" />
   </plugin>
   <plugin>
     org.contikios.cooja.plugins.Notes
@@ -224,6 +224,6 @@
       <notes>Enter notes here</notes>
       <decorations>true</decorations>
     </plugin_config>
-    <bounds x="930" y="0" height="160" width="1610" z="2" />
+    <bounds x="930" y="0" height="160" width="1610" z="3" />
   </plugin>
 </simconf>

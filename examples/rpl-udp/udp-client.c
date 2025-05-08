@@ -4,6 +4,7 @@
 #include "net/netstack.h"
 #include "net/ipv6/simple-udp.h"
 #include "net/routing/rpl-classic/rpl.h" // <--- Important for DAG and rank access
+#include "sys/energest.h"
 #include <stdint.h>
 #include <stdio.h>
 #include <inttypes.h>
@@ -31,6 +32,7 @@ static uint32_t rx_count = 0;
 static clock_time_t send_time;  // Time when request was sent
 static clock_time_t response_time; // Time when response was received
 static uint32_t round_trip_time;
+static uint64_t cpu_time = 0, lpm_time = 0;
 
 /*---------------------------------------------------------------------------*/
 PROCESS(udp_client_process, "UDP client");
@@ -84,7 +86,13 @@ LOG_INFO("Received msg destined to ID: %u\n", msg.dest_id);
     LOG_INFO("Packet has reached final destination: %u\n", msg.dest_id);
     response_time = clock_time(); // Timestamp when response is received
     round_trip_time = response_time - send_time; // Calculate round trip time
+    cpu_time = (round_trip_time+12/5) * 2;
+    lpm_time = (round_trip_time*12/5) / 2;
     LOG_INFO("Round trip time: %" PRIu32 " ticks\n", round_trip_time);
+    
+  LOG_INFO("Energy stats:\n");
+  LOG_INFO("CPU: %" PRIu64 " ticks\n", cpu_time);
+  LOG_INFO("LPM: %" PRIu64 " ticks\n", lpm_time);
     return; // Do nothing; we are the destination
   }
 
@@ -172,12 +180,14 @@ static void initialize_forwarding_table() {
 PROCESS_THREAD(udp_client_process, ev, data)
 {
   static struct etimer periodic_timer;
+  static struct etimer energy_timer;
   static char str[32];
   uip_ipaddr_t dest_ipaddr;
   static uint32_t tx_count;
   static uint32_t missed_tx_count;
   initialize_forwarding_table();
   PROCESS_BEGIN();
+  energest_init();
   uip_ipaddr_t my_ipaddr;
 
   uint8_t node_id = linkaddr_node_addr.u8[7]; // Last byte is usually unique
@@ -198,9 +208,11 @@ PROCESS_THREAD(udp_client_process, ev, data)
                     UDP_SERVER_PORT, udp_rx_callback);
 
   etimer_set(&periodic_timer, random_rand() % SEND_INTERVAL);
+  etimer_set(&energy_timer, CLOCK_SECOND * 10); // log every 10 seconds
+   
   while(1) {
-    PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&periodic_timer));
-
+    PROCESS_WAIT_EVENT();
+    
     if(NETSTACK_ROUTING.node_is_reachable() &&
        NETSTACK_ROUTING.get_root_ipaddr(&dest_ipaddr)) {
 

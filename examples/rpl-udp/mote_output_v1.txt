@@ -42,7 +42,7 @@
 00:00.661	ID:4	[INFO: Main      ] Link-layer address: 0012.7404.0004.0404
 00:00.672	ID:4	[INFO: Main      ] Tentative link-local IPv6 address: fe80::212:7404:4:404
 00:00.673	ID:1	[INFO: Main      ] Starting Contiki-NG-develop/v5.0-36-gd8f74d170-dirty
-00:00.675	ID:1	[INFO: Main      ] - Routing: RPL Lite
+00:00.676	ID:1	[INFO: Main      ] - Routing: RPL Lite
 00:00.676	ID:4	[INFO: Sky       ] CC2420 CCA threshold -45
 00:00.678	ID:1	[INFO: Main      ] - Net: sicslowpan
 00:00.680	ID:1	[INFO: Main      ] - MAC: CSMA
@@ -117,7 +117,7 @@
 00:22.395	ID:4	[INFO: App       ] Tx/Rx/MissedTx: 0/0/0
 00:22.402	ID:4	[INFO: App       ] Sending request 0 to fd00::212:7406:6:606
 00:22.445	ID:8	[INFO: App       ] Current node rank: 0
-00:22.448	ID:8	[INFO: App       ] Tx/Rx/MissedTx: 0/0/0
+00:22.449	ID:8	[INFO: App       ] Tx/Rx/MissedTx: 0/0/0
 00:22.456	ID:8	[INFO: App       ] Sending request 0 to fd00::212:7406:6:606
 00:22.457	ID:6	[INFO: UDP-Server] Received packet for ID 4fd00::212:7404:4:404
 00:22.465	ID:6	[INFO: UDP-Server] Forwarding to destination ID 4 via next hop: fd00::212:7403:3:303
@@ -140,14 +140,23 @@
 00:22.797	ID:3	[INFO: App       ] Sending request 0 to fd00::212:7406:6:606
 00:22.798	ID:8	[INFO: App       ] Packet has reached final destination: 8
 00:22.801	ID:8	[INFO: App       ] Round trip time: 44 ticks
+00:22.804	ID:8	[INFO: App       ] Energy stats:
+00:22.808	ID:8	[INFO: App       ] CPU: 92 ticks
+00:22.813	ID:8	[INFO: App       ] LPM: 52 ticks
 00:22.814	ID:4	[INFO: App       ] Received packet of length 2 from fd00::212:7408:8:808 to fd00::212:7404:4:404[INFO: App       ] Received msg destined to ID: 4
 00:22.818	ID:4	[INFO: App       ] Packet has reached final destination: 4
-00:22.821	ID:4	[INFO: App       ] Round trip time: 54 ticks
+00:22.822	ID:4	[INFO: App       ] Round trip time: 54 ticks
+00:22.824	ID:4	[INFO: App       ] Energy stats:
+00:22.830	ID:4	[INFO: App       ] CPU: 112 ticks
+00:22.834	ID:4	[INFO: App       ] LPM: 64 ticks
 00:22.844	ID:6	[INFO: UDP-Server] Received packet for ID 3fd00::212:7403:3:303
 00:22.852	ID:6	[INFO: UDP-Server] Forwarding to destination ID 3 via next hop: fd00::212:7403:3:303
 00:22.914	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 3
 00:22.919	ID:3	[INFO: App       ] Packet has reached final destination: 3
 00:22.922	ID:3	[INFO: App       ] Round trip time: 16 ticks
+00:22.925	ID:3	[INFO: App       ] Energy stats:
+00:22.929	ID:3	[INFO: App       ] CPU: 36 ticks
+00:22.934	ID:3	[INFO: App       ] LPM: 19 ticks
 00:31.224	ID:2	[INFO: App       ] Current node rank: 0
 00:31.232	ID:2	[INFO: App       ] Sending request 1 to fd00::212:7406:6:606
 00:31.259	ID:6	[INFO: UDP-Server] Received packet for ID 2fd00::212:7402:2:202
@@ -156,22 +165,28 @@
 00:31.399	ID:7	[INFO: App       ] Forwarding packet to next hop 2 [fd00::212:7402:2:202]
 00:31.478	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 2
 00:31.482	ID:2	[INFO: App       ] Packet has reached final destination: 2
-00:31.485	ID:2	[INFO: App       ] Round trip time: 32 ticks
+00:31.486	ID:2	[INFO: App       ] Round trip time: 32 ticks
+00:31.488	ID:2	[INFO: App       ] Energy stats:
+00:31.492	ID:2	[INFO: App       ] CPU: 68 ticks
+00:31.497	ID:2	[INFO: App       ] LPM: 38 ticks
 00:32.028	ID:7	[INFO: App       ] Current node rank: 0
 00:32.032	ID:7	[INFO: App       ] Tx/Rx/MissedTx: 0/0/0
 00:32.039	ID:7	[INFO: App       ] Sending request 0 to fd00::212:7406:6:606
 00:32.129	ID:6	[INFO: UDP-Server] Received packet for ID 7fd00::212:7407:7:707
 00:32.137	ID:6	[INFO: UDP-Server] Forwarding to destination ID 7 via next hop: fd00::212:7407:7:707
-00:32.159	ID:1	[INFO: App       ] Current node rank: 0
+00:32.160	ID:1	[INFO: App       ] Current node rank: 0
 00:32.163	ID:1	[INFO: App       ] Tx/Rx/MissedTx: 0/0/0
 00:32.170	ID:1	[INFO: App       ] Sending request 0 to fd00::212:7406:6:606
 00:32.180	ID:4	[INFO: App       ] Current node rank: 0
 00:32.188	ID:4	[INFO: App       ] Sending request 1 to fd00::212:7406:6:606
 00:32.238	ID:6	[INFO: UDP-Server] Received packet for ID 4fd00::212:7404:4:404
 00:32.238	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 7
-00:32.242	ID:7	[INFO: App       ] Packet has reached final destination: 7
+00:32.243	ID:7	[INFO: App       ] Packet has reached final destination: 7
 00:32.246	ID:7	[INFO: App       ] Round trip time: 26 ticks
 00:32.247	ID:6	[INFO: UDP-Server] Forwarding to destination ID 4 via next hop: fd00::212:7403:3:303
+00:32.249	ID:7	[INFO: App       ] Energy stats:
+00:32.253	ID:7	[INFO: App       ] CPU: 56 ticks
+00:32.258	ID:7	[INFO: App       ] LPM: 31 ticks
 00:32.274	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 4
 00:32.285	ID:3	[INFO: App       ] Forwarding packet to next hop 8 [fd00::212:7408:8:808]
 00:32.300	ID:6	[INFO: UDP-Server] Received packet for ID 1fd00::212:7401:1:101
@@ -182,10 +197,16 @@
 00:32.411	ID:8	[INFO: App       ] Forwarding packet to next hop 4 [fd00::212:7404:4:404]
 00:32.477	ID:1	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7401:1:101[INFO: App       ] Received msg destined to ID: 1
 00:32.481	ID:1	[INFO: App       ] Packet has reached final destination: 1
-00:32.484	ID:1	[INFO: App       ] Round trip time: 40 ticks
+00:32.485	ID:1	[INFO: App       ] Round trip time: 40 ticks
+00:32.487	ID:1	[INFO: App       ] Energy stats:
+00:32.492	ID:1	[INFO: App       ] CPU: 84 ticks
+00:32.496	ID:1	[INFO: App       ] LPM: 48 ticks
 00:32.603	ID:4	[INFO: App       ] Received packet of length 2 from fd00::212:7408:8:808 to fd00::212:7404:4:404[INFO: App       ] Received msg destined to ID: 4
 00:32.607	ID:4	[INFO: App       ] Packet has reached final destination: 4
-00:32.610	ID:4	[INFO: App       ] Round trip time: 54 ticks
+00:32.611	ID:4	[INFO: App       ] Round trip time: 54 ticks
+00:32.613	ID:4	[INFO: App       ] Energy stats:
+00:32.619	ID:4	[INFO: App       ] CPU: 112 ticks
+00:32.623	ID:4	[INFO: App       ] LPM: 64 ticks
 00:32.649	ID:5	[INFO: App       ] Current node rank: 0
 00:32.656	ID:5	[INFO: App       ] Sending request 1 to fd00::212:7406:6:606
 00:32.714	ID:6	[INFO: UDP-Server] Received packet for ID 5fd00::212:7405:5:505
@@ -196,8 +217,11 @@
 00:32.918	ID:2	[INFO: App       ] Forwarding packet to next hop 5 [fd00::212:7405:5:505]
 00:33.009	ID:5	[INFO: App       ] Received packet of length 2 from fd00::212:7402:2:202 to fd00::212:7405:5:505[INFO: App       ] Received msg destined to ID: 5
 00:33.013	ID:5	[INFO: App       ] Packet has reached final destination: 5
-00:33.016	ID:5	[INFO: App       ] Round trip time: 46 ticks
-00:33.366	ID:8	[INFO: App       ] Current node rank: 0
+00:33.017	ID:5	[INFO: App       ] Round trip time: 46 ticks
+00:33.019	ID:5	[INFO: App       ] Energy stats:
+00:33.023	ID:5	[INFO: App       ] CPU: 96 ticks
+00:33.028	ID:5	[INFO: App       ] LPM: 55 ticks
+00:33.367	ID:8	[INFO: App       ] Current node rank: 0
 00:33.374	ID:8	[INFO: App       ] Sending request 1 to fd00::212:7406:6:606
 00:33.409	ID:6	[INFO: UDP-Server] Received packet for ID 8fd00::212:7408:8:808
 00:33.417	ID:6	[INFO: UDP-Server] Forwarding to destination ID 8 via next hop: fd00::212:7403:3:303
@@ -208,11 +232,17 @@
 00:33.564	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 8
 00:33.568	ID:8	[INFO: App       ] Packet has reached final destination: 8
 00:33.571	ID:8	[INFO: App       ] Round trip time: 25 ticks
+00:33.574	ID:8	[INFO: App       ] Energy stats:
+00:33.578	ID:8	[INFO: App       ] CPU: 54 ticks
+00:33.583	ID:8	[INFO: App       ] LPM: 30 ticks
 00:33.601	ID:6	[INFO: UDP-Server] Received packet for ID 3fd00::212:7403:3:303
 00:33.610	ID:6	[INFO: UDP-Server] Forwarding to destination ID 3 via next hop: fd00::212:7403:3:303
 00:33.645	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 3
 00:33.649	ID:3	[INFO: App       ] Packet has reached final destination: 3
 00:33.653	ID:3	[INFO: App       ] Round trip time: 13 ticks
+00:33.656	ID:3	[INFO: App       ] Energy stats:
+00:33.660	ID:3	[INFO: App       ] CPU: 30 ticks
+00:33.665	ID:3	[INFO: App       ] LPM: 15 ticks
 00:41.896	ID:2	[INFO: App       ] Current node rank: 0
 00:41.904	ID:2	[INFO: App       ] Sending request 2 to fd00::212:7406:6:606
 00:41.962	ID:6	[INFO: UDP-Server] Received packet for ID 2fd00::212:7402:2:202
@@ -226,13 +256,19 @@
 00:42.268	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 2
 00:42.272	ID:2	[INFO: App       ] Packet has reached final destination: 2
 00:42.276	ID:2	[INFO: App       ] Round trip time: 47 ticks
+00:42.278	ID:2	[INFO: App       ] Energy stats:
+00:42.283	ID:2	[INFO: App       ] CPU: 98 ticks
+00:42.287	ID:2	[INFO: App       ] LPM: 56 ticks
 00:42.289	ID:5	[INFO: App       ] Current node rank: 0
 00:42.297	ID:5	[INFO: App       ] Sending request 2 to fd00::212:7406:6:606
 00:42.300	ID:1	[INFO: App       ] Current node rank: 0
 00:42.307	ID:1	[INFO: App       ] Sending request 1 to fd00::212:7406:6:606
 00:42.324	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 7
 00:42.328	ID:7	[INFO: App       ] Packet has reached final destination: 7
-00:42.331	ID:7	[INFO: App       ] Round trip time: 26 ticks
+00:42.332	ID:7	[INFO: App       ] Round trip time: 26 ticks
+00:42.334	ID:7	[INFO: App       ] Energy stats:
+00:42.338	ID:7	[INFO: App       ] CPU: 56 ticks
+00:42.343	ID:7	[INFO: App       ] LPM: 31 ticks
 00:42.355	ID:6	[INFO: UDP-Server] Received packet for ID 5fd00::212:7405:5:505
 00:42.363	ID:6	[INFO: UDP-Server] Forwarding to destination ID 5 via next hop: fd00::212:7407:7:707
 00:42.383	ID:6	[INFO: UDP-Server] Received packet for ID 1fd00::212:7401:1:101
@@ -243,15 +279,21 @@
 00:42.516	ID:7	[INFO: App       ] Forwarding packet to next hop 2 [fd00::212:7402:2:202]
 00:42.618	ID:1	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7401:1:101[INFO: App       ] Received msg destined to ID: 1
 00:42.622	ID:1	[INFO: App       ] Packet has reached final destination: 1
-00:42.625	ID:1	[INFO: App       ] Round trip time: 40 ticks
-00:42.641	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 5
-00:42.653	ID:2	[INFO: App       ] Forwarding packet to next hop 5 [fd00::212:7405:5:505]
+00:42.626	ID:1	[INFO: App       ] Round trip time: 40 ticks
+00:42.628	ID:1	[INFO: App       ] Energy stats:
+00:42.632	ID:1	[INFO: App       ] CPU: 84 ticks
+00:42.637	ID:1	[INFO: App       ] LPM: 48 ticks
+00:42.649	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 5
+00:42.660	ID:2	[INFO: App       ] Forwarding packet to next hop 5 [fd00::212:7405:5:505]
 00:42.680	ID:4	[INFO: App       ] Current node rank: 0
-00:42.687	ID:4	[INFO: App       ] Sending request 2 to fd00::212:7406:6:606
-00:42.720	ID:5	[INFO: App       ] Received packet of length 2 from fd00::212:7402:2:202 to fd00::212:7405:5:505[INFO: App       ] Received msg destined to ID: 5
-00:42.724	ID:5	[INFO: App       ] Packet has reached final destination: 5
-00:42.727	ID:5	[INFO: App       ] Round trip time: 55 ticks
+00:42.688	ID:4	[INFO: App       ] Sending request 2 to fd00::212:7406:6:606
+00:42.727	ID:5	[INFO: App       ] Received packet of length 2 from fd00::212:7402:2:202 to fd00::212:7405:5:505[INFO: App       ] Received msg destined to ID: 5
+00:42.732	ID:5	[INFO: App       ] Packet has reached final destination: 5
+00:42.735	ID:5	[INFO: App       ] Round trip time: 56 ticks
+00:42.738	ID:5	[INFO: App       ] Energy stats:
+00:42.743	ID:5	[INFO: App       ] CPU: 116 ticks
 00:42.746	ID:6	[INFO: UDP-Server] Received packet for ID 4fd00::212:7404:4:404
+00:42.748	ID:5	[INFO: App       ] LPM: 67 ticks
 00:42.755	ID:6	[INFO: UDP-Server] Forwarding to destination ID 4 via next hop: fd00::212:7403:3:303
 00:42.828	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 4
 00:42.840	ID:3	[INFO: App       ] Forwarding packet to next hop 8 [fd00::212:7408:8:808]
@@ -260,6 +302,9 @@
 00:43.009	ID:4	[INFO: App       ] Received packet of length 2 from fd00::212:7408:8:808 to fd00::212:7404:4:404[INFO: App       ] Received msg destined to ID: 4
 00:43.013	ID:4	[INFO: App       ] Packet has reached final destination: 4
 00:43.017	ID:4	[INFO: App       ] Round trip time: 42 ticks
+00:43.019	ID:4	[INFO: App       ] Energy stats:
+00:43.024	ID:4	[INFO: App       ] CPU: 88 ticks
+00:43.028	ID:4	[INFO: App       ] LPM: 50 ticks
 00:43.059	ID:3	[INFO: App       ] Current node rank: 0
 00:43.067	ID:3	[INFO: App       ] Sending request 2 to fd00::212:7406:6:606
 00:43.125	ID:6	[INFO: UDP-Server] Received packet for ID 3fd00::212:7403:3:303
@@ -267,7 +312,10 @@
 00:43.203	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 3
 00:43.208	ID:3	[INFO: App       ] Packet has reached final destination: 3
 00:43.211	ID:3	[INFO: App       ] Round trip time: 18 ticks
-00:43.866	ID:8	[INFO: App       ] Current node rank: 0
+00:43.214	ID:3	[INFO: App       ] Energy stats:
+00:43.218	ID:3	[INFO: App       ] CPU: 40 ticks
+00:43.223	ID:3	[INFO: App       ] LPM: 21 ticks
+00:43.867	ID:8	[INFO: App       ] Current node rank: 0
 00:43.874	ID:8	[INFO: App       ] Sending request 2 to fd00::212:7406:6:606
 00:43.932	ID:6	[INFO: UDP-Server] Received packet for ID 8fd00::212:7408:8:808
 00:43.940	ID:6	[INFO: UDP-Server] Forwarding to destination ID 8 via next hop: fd00::212:7403:3:303
@@ -275,7 +323,10 @@
 00:43.980	ID:3	[INFO: App       ] Forwarding packet to next hop 8 [fd00::212:7408:8:808]
 00:44.048	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 8
 00:44.052	ID:8	[INFO: App       ] Packet has reached final destination: 8
-00:44.055	ID:8	[INFO: App       ] Round trip time: 23 ticks
+00:44.056	ID:8	[INFO: App       ] Round trip time: 23 ticks
+00:44.058	ID:8	[INFO: App       ] Energy stats:
+00:44.062	ID:8	[INFO: App       ] CPU: 50 ticks
+00:44.067	ID:8	[INFO: App       ] LPM: 27 ticks
 00:51.537	ID:2	[INFO: App       ] Current node rank: 0
 00:51.544	ID:2	[INFO: App       ] Sending request 3 to fd00::212:7406:6:606
 00:51.564	ID:6	[INFO: UDP-Server] Received packet for ID 2fd00::212:7402:2:202
@@ -285,6 +336,9 @@
 00:51.735	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 2
 00:51.739	ID:2	[INFO: App       ] Packet has reached final destination: 2
 00:51.743	ID:2	[INFO: App       ] Round trip time: 25 ticks
+00:51.745	ID:2	[INFO: App       ] Energy stats:
+00:51.750	ID:2	[INFO: App       ] CPU: 54 ticks
+00:51.754	ID:2	[INFO: App       ] LPM: 30 ticks
 00:52.406	ID:5	[INFO: App       ] Current node rank: 0
 00:52.414	ID:5	[INFO: App       ] Sending request 3 to fd00::212:7406:6:606
 00:52.432	ID:6	[INFO: UDP-Server] Received packet for ID 5fd00::212:7405:5:505
@@ -304,21 +358,33 @@
 00:52.668	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 7
 00:52.672	ID:7	[INFO: App       ] Packet has reached final destination: 7
 00:52.676	ID:7	[INFO: App       ] Round trip time: 29 ticks
+00:52.678	ID:7	[INFO: App       ] Energy stats:
+00:52.683	ID:7	[INFO: App       ] CPU: 62 ticks
+00:52.687	ID:7	[INFO: App       ] LPM: 34 ticks
 00:52.696	ID:6	[INFO: UDP-Server] Received packet for ID 1fd00::212:7401:1:101
 00:52.704	ID:6	[INFO: UDP-Server] Forwarding to destination ID 1 via next hop: fd00::212:7403:3:303
 00:52.732	ID:5	[INFO: App       ] Received packet of length 2 from fd00::212:7402:2:202 to fd00::212:7405:5:505[INFO: App       ] Received msg destined to ID: 5
 00:52.736	ID:6	[INFO: UDP-Server] Received packet for ID 3fd00::212:7403:3:303
 00:52.737	ID:5	[INFO: App       ] Packet has reached final destination: 5
 00:52.740	ID:5	[INFO: App       ] Round trip time: 41 ticks
-00:52.744	ID:6	[INFO: UDP-Server] Forwarding to destination ID 3 via next hop: fd00::212:7403:3:303
+00:52.743	ID:5	[INFO: App       ] Energy stats:
+00:52.745	ID:6	[INFO: UDP-Server] Forwarding to destination ID 3 via next hop: fd00::212:7403:3:303
+00:52.747	ID:5	[INFO: App       ] CPU: 86 ticks
+00:52.752	ID:5	[INFO: App       ] LPM: 49 ticks
 00:52.780	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 1
 00:52.791	ID:3	[INFO: App       ] Forwarding packet to next hop 1 [fd00::212:7401:1:101]
-00:52.809	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 3
+00:52.810	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 3
 00:52.814	ID:3	[INFO: App       ] Packet has reached final destination: 3
 00:52.817	ID:3	[INFO: App       ] Round trip time: 25 ticks
-00:52.899	ID:1	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7401:1:101[INFO: App       ] Received msg destined to ID: 1
-00:52.903	ID:1	[INFO: App       ] Packet has reached final destination: 1
-00:52.906	ID:1	[INFO: App       ] Round trip time: 49 ticks
+00:52.820	ID:3	[INFO: App       ] Energy stats:
+00:52.824	ID:3	[INFO: App       ] CPU: 54 ticks
+00:52.829	ID:3	[INFO: App       ] LPM: 30 ticks
+00:52.907	ID:1	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7401:1:101[INFO: App       ] Received msg destined to ID: 1
+00:52.911	ID:1	[INFO: App       ] Packet has reached final destination: 1
+00:52.915	ID:1	[INFO: App       ] Round trip time: 50 ticks
+00:52.917	ID:1	[INFO: App       ] Energy stats:
+00:52.923	ID:1	[INFO: App       ] CPU: 104 ticks
+00:52.927	ID:1	[INFO: App       ] LPM: 60 ticks
 00:53.399	ID:4	[INFO: App       ] Current node rank: 0
 00:53.406	ID:4	[INFO: App       ] Sending request 3 to fd00::212:7406:6:606
 00:53.457	ID:6	[INFO: UDP-Server] Received packet for ID 4fd00::212:7404:4:404
@@ -329,9 +395,12 @@
 00:53.645	ID:8	[INFO: App       ] Forwarding packet to next hop 4 [fd00::212:7404:4:404]
 00:53.735	ID:4	[INFO: App       ] Received packet of length 2 from fd00::212:7408:8:808 to fd00::212:7404:4:404[INFO: App       ] Received msg destined to ID: 4
 00:53.739	ID:4	[INFO: App       ] Packet has reached final destination: 4
-00:53.743	ID:4	[INFO: App       ] Round trip time: 43 ticks
+00:53.743	ID:4	[INFO: App       ] Round trip time: 42 ticks
+00:53.745	ID:4	[INFO: App       ] Energy stats:
+00:53.750	ID:4	[INFO: App       ] CPU: 88 ticks
+00:53.754	ID:4	[INFO: App       ] LPM: 50 ticks
 00:54.585	ID:8	[INFO: App       ] Current node rank: 0
-00:54.592	ID:8	[INFO: App       ] Sending request 3 to fd00::212:7406:6:606
+00:54.593	ID:8	[INFO: App       ] Sending request 3 to fd00::212:7406:6:606
 00:54.619	ID:6	[INFO: UDP-Server] Received packet for ID 8fd00::212:7408:8:808
 00:54.628	ID:6	[INFO: UDP-Server] Forwarding to destination ID 8 via next hop: fd00::212:7403:3:303
 00:54.657	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 8
@@ -339,15 +408,21 @@
 00:54.774	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 8
 00:54.778	ID:8	[INFO: App       ] Packet has reached final destination: 8
 00:54.782	ID:8	[INFO: App       ] Round trip time: 24 ticks
+00:54.784	ID:8	[INFO: App       ] Energy stats:
+00:54.789	ID:8	[INFO: App       ] CPU: 52 ticks
+00:54.794	ID:8	[INFO: App       ] LPM: 28 ticks
 01:01.646	ID:2	[INFO: App       ] Current node rank: 0
 01:01.653	ID:2	[INFO: App       ] Sending request 4 to fd00::212:7406:6:606
 01:01.697	ID:6	[INFO: UDP-Server] Received packet for ID 2fd00::212:7402:2:202
 01:01.705	ID:6	[INFO: UDP-Server] Forwarding to destination ID 2 via next hop: fd00::212:7407:7:707
-01:01.770	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 2
-01:01.781	ID:7	[INFO: App       ] Forwarding packet to next hop 2 [fd00::212:7402:2:202]
-01:01.899	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 2
-01:01.904	ID:2	[INFO: App       ] Packet has reached final destination: 2
-01:01.907	ID:2	[INFO: App       ] Round trip time: 32 ticks
+01:01.762	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 2
+01:01.774	ID:7	[INFO: App       ] Forwarding packet to next hop 2 [fd00::212:7402:2:202]
+01:01.892	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 2
+01:01.896	ID:2	[INFO: App       ] Packet has reached final destination: 2
+01:01.900	ID:2	[INFO: App       ] Round trip time: 31 ticks
+01:01.902	ID:2	[INFO: App       ] Energy stats:
+01:01.906	ID:2	[INFO: App       ] CPU: 66 ticks
+01:01.911	ID:2	[INFO: App       ] LPM: 37 ticks
 01:02.831	ID:1	[INFO: App       ] Current node rank: 0
 01:02.839	ID:1	[INFO: App       ] Sending request 3 to fd00::212:7406:6:606
 01:02.891	ID:6	[INFO: UDP-Server] Received packet for ID 1fd00::212:7401:1:101
@@ -365,162 +440,219 @@
 01:03.067	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 3
 01:03.071	ID:3	[INFO: App       ] Packet has reached final destination: 3
 01:03.075	ID:3	[INFO: App       ] Round trip time: 18 ticks
-01:03.145	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 5
-01:03.156	ID:7	[INFO: App       ] Forwarding packet to next hop 2 [fd00::212:7402:2:202]
-01:03.211	ID:1	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7401:1:101[INFO: App       ] Received msg destined to ID: 1
-01:03.215	ID:1	[INFO: App       ] Packet has reached final destination: 1
-01:03.219	ID:1	[INFO: App       ] Round trip time: 48 ticks
-01:03.290	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 5
-01:03.301	ID:2	[INFO: App       ] Forwarding packet to next hop 5 [fd00::212:7405:5:505]
-01:03.384	ID:5	[INFO: App       ] Received packet of length 2 from fd00::212:7402:2:202 to fd00::212:7405:5:505[INFO: App       ] Received msg destined to ID: 5
-01:03.388	ID:5	[INFO: App       ] Packet has reached final destination: 5
-01:03.391	ID:5	[INFO: App       ] Round trip time: 59 ticks
-01:03.418	ID:7	[INFO: App       ] Current node rank: 0
+01:03.077	ID:3	[INFO: App       ] Energy stats:
+01:03.082	ID:3	[INFO: App       ] CPU: 40 ticks
+01:03.087	ID:3	[INFO: App       ] LPM: 21 ticks
+01:03.137	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 5
+01:03.149	ID:7	[INFO: App       ] Forwarding packet to next hop 2 [fd00::212:7402:2:202]
+01:03.149	ID:1	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7401:1:101[INFO: App       ] Received msg destined to ID: 1
+01:03.153	ID:1	[INFO: App       ] Packet has reached final destination: 1
+01:03.157	ID:1	[INFO: App       ] Round trip time: 40 ticks
+01:03.159	ID:1	[INFO: App       ] Energy stats:
+01:03.163	ID:1	[INFO: App       ] CPU: 84 ticks
+01:03.168	ID:1	[INFO: App       ] LPM: 48 ticks
+01:03.282	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 5
+01:03.293	ID:2	[INFO: App       ] Forwarding packet to next hop 5 [fd00::212:7405:5:505]
+01:03.376	ID:5	[INFO: App       ] Received packet of length 2 from fd00::212:7402:2:202 to fd00::212:7405:5:505[INFO: App       ] Received msg destined to ID: 5
+01:03.380	ID:5	[INFO: App       ] Packet has reached final destination: 5
+01:03.384	ID:5	[INFO: App       ] Round trip time: 58 ticks
+01:03.386	ID:5	[INFO: App       ] Energy stats:
+01:03.392	ID:5	[INFO: App       ] CPU: 120 ticks
+01:03.396	ID:5	[INFO: App       ] LPM: 69 ticks
+01:03.419	ID:7	[INFO: App       ] Current node rank: 0
 01:03.426	ID:7	[INFO: App       ] Sending request 3 to fd00::212:7406:6:606
 01:03.504	ID:6	[INFO: UDP-Server] Received packet for ID 7fd00::212:7407:7:707
 01:03.512	ID:6	[INFO: UDP-Server] Forwarding to destination ID 7 via next hop: fd00::212:7407:7:707
 01:03.567	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 7
 01:03.571	ID:7	[INFO: App       ] Packet has reached final destination: 7
-01:03.574	ID:7	[INFO: App       ] Round trip time: 18 ticks
+01:03.575	ID:7	[INFO: App       ] Round trip time: 18 ticks
+01:03.577	ID:7	[INFO: App       ] Energy stats:
+01:03.581	ID:7	[INFO: App       ] CPU: 40 ticks
+01:03.586	ID:7	[INFO: App       ] LPM: 21 ticks
 01:03.829	ID:4	[INFO: App       ] Current node rank: 0
 01:03.836	ID:4	[INFO: App       ] Sending request 4 to fd00::212:7406:6:606
 01:03.856	ID:6	[INFO: UDP-Server] Received packet for ID 4fd00::212:7404:4:404
 01:03.864	ID:6	[INFO: UDP-Server] Forwarding to destination ID 4 via next hop: fd00::212:7403:3:303
 01:03.938	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 4
 01:03.949	ID:3	[INFO: App       ] Forwarding packet to next hop 8 [fd00::212:7408:8:808]
-01:04.032	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 4
-01:04.043	ID:8	[INFO: App       ] Forwarding packet to next hop 4 [fd00::212:7404:4:404]
-01:04.095	ID:4	[INFO: App       ] Received packet of length 2 from fd00::212:7408:8:808 to fd00::212:7404:4:404[INFO: App       ] Received msg destined to ID: 4
-01:04.099	ID:4	[INFO: App       ] Packet has reached final destination: 4
-01:04.103	ID:4	[INFO: App       ] Round trip time: 34 ticks
+01:03.993	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 4
+01:04.004	ID:8	[INFO: App       ] Forwarding packet to next hop 4 [fd00::212:7404:4:404]
+01:04.056	ID:4	[INFO: App       ] Received packet of length 2 from fd00::212:7408:8:808 to fd00::212:7404:4:404[INFO: App       ] Received msg destined to ID: 4
+01:04.060	ID:4	[INFO: App       ] Packet has reached final destination: 4
+01:04.064	ID:4	[INFO: App       ] Round trip time: 29 ticks
+01:04.066	ID:4	[INFO: App       ] Energy stats:
+01:04.070	ID:4	[INFO: App       ] CPU: 62 ticks
+01:04.075	ID:4	[INFO: App       ] LPM: 34 ticks
 01:05.023	ID:8	[INFO: App       ] Current node rank: 0
 01:05.030	ID:8	[INFO: App       ] Sending request 4 to fd00::212:7406:6:606
 01:05.088	ID:6	[INFO: UDP-Server] Received packet for ID 8fd00::212:7408:8:808
 01:05.097	ID:6	[INFO: UDP-Server] Forwarding to destination ID 8 via next hop: fd00::212:7403:3:303
 01:05.133	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 8
 01:05.144	ID:3	[INFO: App       ] Forwarding packet to next hop 8 [fd00::212:7408:8:808]
-01:05.212	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 8
-01:05.216	ID:8	[INFO: App       ] Packet has reached final destination: 8
-01:05.220	ID:8	[INFO: App       ] Round trip time: 24 ticks
+01:05.243	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 8
+01:05.247	ID:8	[INFO: App       ] Packet has reached final destination: 8
+01:05.251	ID:8	[INFO: App       ] Round trip time: 28 ticks
+01:05.253	ID:8	[INFO: App       ] Energy stats:
+01:05.258	ID:8	[INFO: App       ] CPU: 60 ticks
+01:05.262	ID:8	[INFO: App       ] LPM: 33 ticks
 01:12.021	ID:2	[INFO: App       ] Current node rank: 0
 01:12.028	ID:2	[INFO: App       ] Sending request 5 to fd00::212:7406:6:606
 01:12.063	ID:6	[INFO: UDP-Server] Received packet for ID 2fd00::212:7402:2:202
 01:12.072	ID:6	[INFO: UDP-Server] Forwarding to destination ID 2 via next hop: fd00::212:7407:7:707
-01:12.153	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 2
-01:12.164	ID:7	[INFO: App       ] Forwarding packet to next hop 2 [fd00::212:7402:2:202]
-01:12.274	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 2
-01:12.279	ID:2	[INFO: App       ] Packet has reached final destination: 2
-01:12.282	ID:2	[INFO: App       ] Round trip time: 32 ticks
+01:12.145	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 2
+01:12.157	ID:7	[INFO: App       ] Forwarding packet to next hop 2 [fd00::212:7402:2:202]
+01:12.267	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 2
+01:12.271	ID:2	[INFO: App       ] Packet has reached final destination: 2
+01:12.275	ID:2	[INFO: App       ] Round trip time: 31 ticks
+01:12.277	ID:2	[INFO: App       ] Energy stats:
+01:12.281	ID:2	[INFO: App       ] CPU: 66 ticks
+01:12.286	ID:2	[INFO: App       ] LPM: 37 ticks
 01:12.520	ID:1	[INFO: App       ] Current node rank: 0
 01:12.527	ID:1	[INFO: App       ] Sending request 4 to fd00::212:7406:6:606
-01:12.626	ID:6	[INFO: UDP-Server] Received packet for ID 1fd00::212:7401:1:101
-01:12.634	ID:6	[INFO: UDP-Server] Forwarding to destination ID 1 via next hop: fd00::212:7403:3:303
-01:12.696	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 1
-01:12.707	ID:3	[INFO: App       ] Forwarding packet to next hop 1 [fd00::212:7401:1:101]
-01:12.805	ID:1	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7401:1:101[INFO: App       ] Received msg destined to ID: 1
-01:12.809	ID:1	[INFO: App       ] Packet has reached final destination: 1
-01:12.813	ID:1	[INFO: App       ] Round trip time: 36 ticks
+01:12.602	ID:6	[INFO: UDP-Server] Received packet for ID 1fd00::212:7401:1:101
+01:12.611	ID:6	[INFO: UDP-Server] Forwarding to destination ID 1 via next hop: fd00::212:7403:3:303
+01:12.673	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 1
+01:12.684	ID:3	[INFO: App       ] Forwarding packet to next hop 1 [fd00::212:7401:1:101]
+01:12.782	ID:1	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7401:1:101[INFO: App       ] Received msg destined to ID: 1
+01:12.786	ID:1	[INFO: App       ] Packet has reached final destination: 1
+01:12.790	ID:1	[INFO: App       ] Round trip time: 33 ticks
+01:12.792	ID:1	[INFO: App       ] Energy stats:
+01:12.796	ID:1	[INFO: App       ] CPU: 70 ticks
+01:12.801	ID:1	[INFO: App       ] LPM: 39 ticks
 01:13.118	ID:4	[INFO: App       ] Current node rank: 0
 01:13.125	ID:4	[INFO: App       ] Sending request 5 to fd00::212:7406:6:606
 01:13.169	ID:3	[INFO: App       ] Current node rank: 0
 01:13.176	ID:3	[INFO: App       ] Sending request 5 to fd00::212:7406:6:606
 01:13.184	ID:6	[INFO: UDP-Server] Received packet for ID 4fd00::212:7404:4:404
 01:13.192	ID:6	[INFO: UDP-Server] Forwarding to destination ID 4 via next hop: fd00::212:7403:3:303
-01:13.227	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 4
-01:13.238	ID:3	[INFO: App       ] Forwarding packet to next hop 8 [fd00::212:7408:8:808]
-01:13.252	ID:6	[INFO: UDP-Server] Received packet for ID 3fd00::212:7403:3:303
-01:13.261	ID:6	[INFO: UDP-Server] Forwarding to destination ID 3 via next hop: fd00::212:7403:3:303
-01:13.296	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 3
-01:13.300	ID:3	[INFO: App       ] Packet has reached final destination: 3
-01:13.304	ID:3	[INFO: App       ] Round trip time: 16 ticks
-01:13.337	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 4
-01:13.348	ID:8	[INFO: App       ] Forwarding packet to next hop 4 [fd00::212:7404:4:404]
-01:13.439	ID:4	[INFO: App       ] Received packet of length 2 from fd00::212:7408:8:808 to fd00::212:7404:4:404[INFO: App       ] Received msg destined to ID: 4
-01:13.443	ID:4	[INFO: App       ] Packet has reached final destination: 4
-01:13.446	ID:4	[INFO: App       ] Round trip time: 41 ticks
+01:13.219	ID:6	[INFO: UDP-Server] Received packet for ID 3fd00::212:7403:3:303
+01:13.227	ID:6	[INFO: UDP-Server] Forwarding to destination ID 3 via next hop: fd00::212:7403:3:303
+01:13.262	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 4
+01:13.273	ID:3	[INFO: App       ] Forwarding packet to next hop 8 [fd00::212:7408:8:808]
+01:13.292	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 3
+01:13.296	ID:3	[INFO: App       ] Packet has reached final destination: 3
+01:13.300	ID:3	[INFO: App       ] Round trip time: 15 ticks
+01:13.302	ID:3	[INFO: App       ] Energy stats:
+01:13.307	ID:3	[INFO: App       ] CPU: 34 ticks
+01:13.311	ID:3	[INFO: App       ] LPM: 18 ticks
+01:13.376	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 4
+01:13.387	ID:8	[INFO: App       ] Forwarding packet to next hop 4 [fd00::212:7404:4:404]
+01:13.446	ID:4	[INFO: App       ] Received packet of length 2 from fd00::212:7408:8:808 to fd00::212:7404:4:404[INFO: App       ] Received msg destined to ID: 4
+01:13.450	ID:4	[INFO: App       ] Packet has reached final destination: 4
+01:13.454	ID:4	[INFO: App       ] Round trip time: 41 ticks
+01:13.456	ID:4	[INFO: App       ] Energy stats:
+01:13.460	ID:4	[INFO: App       ] CPU: 86 ticks
+01:13.465	ID:4	[INFO: App       ] LPM: 49 ticks
 01:13.875	ID:5	[INFO: App       ] Current node rank: 0
 01:13.882	ID:5	[INFO: App       ] Sending request 5 to fd00::212:7406:6:606
 01:13.941	ID:6	[INFO: UDP-Server] Received packet for ID 5fd00::212:7405:5:505
-01:13.949	ID:6	[INFO: UDP-Server] Forwarding to destination ID 5 via next hop: fd00::212:7407:7:707
-01:14.004	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 5
-01:14.016	ID:7	[INFO: App       ] Forwarding packet to next hop 2 [fd00::212:7402:2:202]
-01:14.103	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 5
-01:14.114	ID:2	[INFO: App       ] Forwarding packet to next hop 5 [fd00::212:7405:5:505]
-01:14.188	ID:5	[INFO: App       ] Received packet of length 2 from fd00::212:7402:2:202 to fd00::212:7405:5:505[INFO: App       ] Received msg destined to ID: 5
-01:14.192	ID:5	[INFO: App       ] Packet has reached final destination: 5
-01:14.196	ID:5	[INFO: App       ] Round trip time: 40 ticks
+01:13.950	ID:6	[INFO: UDP-Server] Forwarding to destination ID 5 via next hop: fd00::212:7407:7:707
+01:14.012	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 5
+01:14.024	ID:7	[INFO: App       ] Forwarding packet to next hop 2 [fd00::212:7402:2:202]
+01:14.149	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 5
+01:14.160	ID:2	[INFO: App       ] Forwarding packet to next hop 5 [fd00::212:7405:5:505]
+01:14.195	ID:5	[INFO: App       ] Received packet of length 2 from fd00::212:7402:2:202 to fd00::212:7405:5:505[INFO: App       ] Received msg destined to ID: 5
+01:14.199	ID:5	[INFO: App       ] Packet has reached final destination: 5
+01:14.203	ID:5	[INFO: App       ] Round trip time: 40 ticks
+01:14.205	ID:5	[INFO: App       ] Energy stats:
+01:14.210	ID:5	[INFO: App       ] CPU: 84 ticks
+01:14.214	ID:5	[INFO: App       ] LPM: 48 ticks
 01:14.270	ID:7	[INFO: App       ] Current node rank: 0
 01:14.277	ID:7	[INFO: App       ] Sending request 4 to fd00::212:7406:6:606
 01:14.355	ID:6	[INFO: UDP-Server] Received packet for ID 7fd00::212:7407:7:707
 01:14.364	ID:6	[INFO: UDP-Server] Forwarding to destination ID 7 via next hop: fd00::212:7407:7:707
-01:14.418	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 7
-01:14.422	ID:7	[INFO: App       ] Packet has reached final destination: 7
-01:14.426	ID:7	[INFO: App       ] Round trip time: 18 ticks
+01:14.434	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 7
+01:14.438	ID:7	[INFO: App       ] Packet has reached final destination: 7
+01:14.442	ID:7	[INFO: App       ] Round trip time: 20 ticks
+01:14.444	ID:7	[INFO: App       ] Energy stats:
+01:14.449	ID:7	[INFO: App       ] CPU: 44 ticks
+01:14.453	ID:7	[INFO: App       ] LPM: 24 ticks
 01:14.546	ID:8	[INFO: App       ] Current node rank: 0
 01:14.553	ID:8	[INFO: App       ] Sending request 5 to fd00::212:7406:6:606
 01:14.612	ID:6	[INFO: UDP-Server] Received packet for ID 8fd00::212:7408:8:808
 01:14.620	ID:6	[INFO: UDP-Server] Forwarding to destination ID 8 via next hop: fd00::212:7403:3:303
-01:14.664	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 8
-01:14.675	ID:3	[INFO: App       ] Forwarding packet to next hop 8 [fd00::212:7408:8:808]
-01:14.782	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 8
-01:14.786	ID:8	[INFO: App       ] Packet has reached final destination: 8
-01:14.790	ID:8	[INFO: App       ] Round trip time: 30 ticks
+01:14.657	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 8
+01:14.668	ID:3	[INFO: App       ] Forwarding packet to next hop 8 [fd00::212:7408:8:808]
+01:14.758	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 8
+01:14.762	ID:8	[INFO: App       ] Packet has reached final destination: 8
+01:14.766	ID:8	[INFO: App       ] Round trip time: 27 ticks
+01:14.768	ID:8	[INFO: App       ] Energy stats:
+01:14.773	ID:8	[INFO: App       ] CPU: 58 ticks
+01:14.778	ID:8	[INFO: App       ] LPM: 32 ticks
 01:22.615	ID:2	[INFO: App       ] Current node rank: 0
 01:22.622	ID:2	[INFO: App       ] Sending request 6 to fd00::212:7406:6:606
 01:22.641	ID:4	[INFO: App       ] Current node rank: 0
-01:22.648	ID:4	[INFO: App       ] Sending request 6 to fd00::212:7406:6:606
+01:22.649	ID:4	[INFO: App       ] Sending request 6 to fd00::212:7406:6:606
 01:22.665	ID:6	[INFO: UDP-Server] Received packet for ID 2fd00::212:7402:2:202
 01:22.674	ID:6	[INFO: UDP-Server] Forwarding to destination ID 2 via next hop: fd00::212:7407:7:707
 01:22.762	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 2
 01:22.769	ID:6	[INFO: UDP-Server] Received packet for ID 4fd00::212:7404:4:404
 01:22.774	ID:7	[INFO: App       ] Forwarding packet to next hop 2 [fd00::212:7402:2:202]
 01:22.778	ID:6	[INFO: UDP-Server] Forwarding to destination ID 4 via next hop: fd00::212:7403:3:303
-01:22.853	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 4
-01:22.864	ID:3	[INFO: App       ] Forwarding packet to next hop 8 [fd00::212:7408:8:808]
-01:22.868	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 2
-01:22.872	ID:2	[INFO: App       ] Packet has reached final destination: 2
-01:22.876	ID:2	[INFO: App       ] Round trip time: 32 ticks
-01:22.946	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 4
-01:22.957	ID:8	[INFO: App       ] Forwarding packet to next hop 4 [fd00::212:7404:4:404]
-01:23.056	ID:4	[INFO: App       ] Received packet of length 2 from fd00::212:7408:8:808 to fd00::212:7404:4:404[INFO: App       ] Received msg destined to ID: 4
-01:23.060	ID:4	[INFO: App       ] Packet has reached final destination: 4
-01:23.063	ID:4	[INFO: App       ] Round trip time: 53 ticks
+01:22.821	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 4
+01:22.832	ID:3	[INFO: App       ] Forwarding packet to next hop 8 [fd00::212:7408:8:808]
+01:22.892	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 2
+01:22.896	ID:2	[INFO: App       ] Packet has reached final destination: 2
+01:22.899	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 4
+01:22.900	ID:2	[INFO: App       ] Round trip time: 35 ticks
+01:22.902	ID:2	[INFO: App       ] Energy stats:
+01:22.906	ID:2	[INFO: App       ] CPU: 74 ticks
+01:22.910	ID:8	[INFO: App       ] Forwarding packet to next hop 4 [fd00::212:7404:4:404]
+01:22.911	ID:2	[INFO: App       ] LPM: 42 ticks
+01:22.985	ID:4	[INFO: App       ] Received packet of length 2 from fd00::212:7408:8:808 to fd00::212:7404:4:404[INFO: App       ] Received msg destined to ID: 4
+01:22.989	ID:4	[INFO: App       ] Packet has reached final destination: 4
+01:22.993	ID:4	[INFO: App       ] Round trip time: 44 ticks
+01:22.996	ID:4	[INFO: App       ] Energy stats:
+01:23.000	ID:4	[INFO: App       ] CPU: 92 ticks
+01:23.005	ID:4	[INFO: App       ] LPM: 52 ticks
+01:23.028	ID:3	[INFO: App       ] Current node rank: 0
+01:23.035	ID:3	[INFO: App       ] Sending request 6 to fd00::212:7406:6:606
+01:23.070	ID:6	[INFO: UDP-Server] Received packet for ID 3fd00::212:7403:3:303
+01:23.079	ID:6	[INFO: UDP-Server] Forwarding to destination ID 3 via next hop: fd00::212:7403:3:303
+01:23.118	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 3
+01:23.122	ID:3	[INFO: App       ] Packet has reached final destination: 3
+01:23.125	ID:3	[INFO: App       ] Round trip time: 11 ticks
+01:23.128	ID:3	[INFO: App       ] Energy stats:
+01:23.132	ID:3	[INFO: App       ] CPU: 26 ticks
+01:23.137	ID:3	[INFO: App       ] LPM: 13 ticks
 01:23.425	ID:1	[INFO: App       ] Current node rank: 0
 01:23.432	ID:1	[INFO: App       ] Sending request 5 to fd00::212:7406:6:606
-01:23.442	ID:3	[INFO: App       ] Current node rank: 0
-01:23.449	ID:3	[INFO: App       ] Sending request 6 to fd00::212:7406:6:606
-01:23.492	ID:6	[INFO: UDP-Server] Received packet for ID 3fd00::212:7403:3:303
-01:23.501	ID:6	[INFO: UDP-Server] Forwarding to destination ID 3 via next hop: fd00::212:7403:3:303
-01:23.536	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 3
-01:23.540	ID:3	[INFO: App       ] Packet has reached final destination: 3
-01:23.544	ID:3	[INFO: App       ] Round trip time: 12 ticks
-01:23.559	ID:6	[INFO: UDP-Server] Received packet for ID 1fd00::212:7401:1:101
-01:23.568	ID:6	[INFO: UDP-Server] Forwarding to destination ID 1 via next hop: fd00::212:7403:3:303
-01:23.610	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 1
-01:23.621	ID:3	[INFO: App       ] Forwarding packet to next hop 1 [fd00::212:7401:1:101]
-01:23.735	ID:1	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7401:1:101[INFO: App       ] Received msg destined to ID: 1
-01:23.739	ID:1	[INFO: App       ] Packet has reached final destination: 1
-01:23.742	ID:1	[INFO: App       ] Round trip time: 39 ticks
+01:23.516	ID:6	[INFO: UDP-Server] Received packet for ID 1fd00::212:7401:1:101
+01:23.524	ID:6	[INFO: UDP-Server] Forwarding to destination ID 1 via next hop: fd00::212:7403:3:303
+01:23.586	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 1
+01:23.597	ID:3	[INFO: App       ] Forwarding packet to next hop 1 [fd00::212:7401:1:101]
+01:23.711	ID:1	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7401:1:101[INFO: App       ] Received msg destined to ID: 1
+01:23.715	ID:1	[INFO: App       ] Packet has reached final destination: 1
+01:23.719	ID:1	[INFO: App       ] Round trip time: 36 ticks
+01:23.721	ID:1	[INFO: App       ] Energy stats:
+01:23.726	ID:1	[INFO: App       ] CPU: 76 ticks
+01:23.731	ID:1	[INFO: App       ] LPM: 43 ticks
 01:24.149	ID:5	[INFO: App       ] Current node rank: 0
 01:24.156	ID:5	[INFO: App       ] Sending request 6 to fd00::212:7406:6:606
 01:24.183	ID:6	[INFO: UDP-Server] Received packet for ID 5fd00::212:7405:5:505
-01:24.191	ID:6	[INFO: UDP-Server] Forwarding to destination ID 5 via next hop: fd00::212:7407:7:707
+01:24.192	ID:6	[INFO: UDP-Server] Forwarding to destination ID 5 via next hop: fd00::212:7407:7:707
 01:24.277	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 5
 01:24.289	ID:7	[INFO: App       ] Forwarding packet to next hop 2 [fd00::212:7402:2:202]
-01:24.391	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 5
-01:24.403	ID:2	[INFO: App       ] Forwarding packet to next hop 5 [fd00::212:7405:5:505]
-01:24.477	ID:5	[INFO: App       ] Received packet of length 2 from fd00::212:7402:2:202 to fd00::212:7405:5:505[INFO: App       ] Received msg destined to ID: 5
-01:24.482	ID:5	[INFO: App       ] Packet has reached final destination: 5
-01:24.485	ID:5	[INFO: App       ] Round trip time: 42 ticks
+01:24.399	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 5
+01:24.410	ID:2	[INFO: App       ] Forwarding packet to next hop 5 [fd00::212:7405:5:505]
+01:24.493	ID:5	[INFO: App       ] Received packet of length 2 from fd00::212:7402:2:202 to fd00::212:7405:5:505[INFO: App       ] Received msg destined to ID: 5
+01:24.497	ID:5	[INFO: App       ] Packet has reached final destination: 5
+01:24.501	ID:5	[INFO: App       ] Round trip time: 44 ticks
+01:24.503	ID:5	[INFO: App       ] Energy stats:
+01:24.508	ID:5	[INFO: App       ] CPU: 92 ticks
+01:24.512	ID:5	[INFO: App       ] LPM: 52 ticks
 01:24.663	ID:8	[INFO: App       ] Current node rank: 0
 01:24.671	ID:8	[INFO: App       ] Sending request 6 to fd00::212:7406:6:606
 01:24.690	ID:6	[INFO: UDP-Server] Received packet for ID 8fd00::212:7408:8:808
 01:24.698	ID:6	[INFO: UDP-Server] Forwarding to destination ID 8 via next hop: fd00::212:7403:3:303
-01:24.750	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 8
-01:24.761	ID:3	[INFO: App       ] Forwarding packet to next hop 8 [fd00::212:7408:8:808]
-01:24.813	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 8
-01:24.817	ID:8	[INFO: App       ] Packet has reached final destination: 8
-01:24.821	ID:8	[INFO: App       ] Round trip time: 19 ticks
+01:24.743	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 8
+01:24.754	ID:3	[INFO: App       ] Forwarding packet to next hop 8 [fd00::212:7408:8:808]
+01:24.829	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 8
+01:24.833	ID:8	[INFO: App       ] Packet has reached final destination: 8
+01:24.837	ID:8	[INFO: App       ] Round trip time: 21 ticks
+01:24.839	ID:8	[INFO: App       ] Energy stats:
+01:24.844	ID:8	[INFO: App       ] CPU: 46 ticks
+01:24.848	ID:8	[INFO: App       ] LPM: 25 ticks
 01:24.965	ID:7	[INFO: App       ] Current node rank: 0
 01:24.973	ID:7	[INFO: App       ] Sending request 5 to fd00::212:7406:6:606
 01:25.074	ID:6	[INFO: UDP-Server] Received packet for ID 7fd00::212:7407:7:707
@@ -528,33 +660,45 @@
 01:25.137	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 7
 01:25.141	ID:7	[INFO: App       ] Packet has reached final destination: 7
 01:25.145	ID:7	[INFO: App       ] Round trip time: 21 ticks
+01:25.147	ID:7	[INFO: App       ] Energy stats:
+01:25.152	ID:7	[INFO: App       ] CPU: 46 ticks
+01:25.156	ID:7	[INFO: App       ] LPM: 25 ticks
 01:32.852	ID:4	[INFO: App       ] Current node rank: 0
 01:32.859	ID:4	[INFO: App       ] Sending request 7 to fd00::212:7406:6:606
 01:32.878	ID:6	[INFO: UDP-Server] Received packet for ID 4fd00::212:7404:4:404
 01:32.887	ID:6	[INFO: UDP-Server] Forwarding to destination ID 4 via next hop: fd00::212:7403:3:303
-01:32.922	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 4
 01:32.927	ID:2	[INFO: App       ] Current node rank: 0
-01:32.933	ID:3	[INFO: App       ] Forwarding packet to next hop 8 [fd00::212:7408:8:808]
 01:32.935	ID:2	[INFO: App       ] Sending request 7 to fd00::212:7406:6:606
+01:32.938	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 4
+01:32.949	ID:3	[INFO: App       ] Forwarding packet to next hop 8 [fd00::212:7408:8:808]
 01:32.978	ID:6	[INFO: UDP-Server] Received packet for ID 2fd00::212:7402:2:202
 01:32.986	ID:6	[INFO: UDP-Server] Forwarding to destination ID 2 via next hop: fd00::212:7407:7:707
-01:33.015	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 4
-01:33.026	ID:8	[INFO: App       ] Forwarding packet to next hop 4 [fd00::212:7404:4:404]
-01:33.067	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 2
-01:33.078	ID:7	[INFO: App       ] Forwarding packet to next hop 2 [fd00::212:7402:2:202]
-01:33.126	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 2
-01:33.130	ID:2	[INFO: App       ] Packet has reached final destination: 2
-01:33.134	ID:4	[INFO: App       ] Received packet of length 2 from fd00::212:7408:8:808 to fd00::212:7404:4:404[INFO: App       ] Received msg destined to ID: 4
-01:33.134	ID:2	[INFO: App       ] Round trip time: 25 ticks
-01:33.138	ID:4	[INFO: App       ] Packet has reached final destination: 4
-01:33.142	ID:4	[INFO: App       ] Round trip time: 36 ticks
-01:33.786	ID:3	[INFO: App       ] Current node rank: 0
-01:33.793	ID:3	[INFO: App       ] Sending request 7 to fd00::212:7406:6:606
-01:33.812	ID:6	[INFO: UDP-Server] Received packet for ID 3fd00::212:7403:3:303
-01:33.820	ID:6	[INFO: UDP-Server] Forwarding to destination ID 3 via next hop: fd00::212:7403:3:303
-01:33.860	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 3
-01:33.864	ID:3	[INFO: App       ] Packet has reached final destination: 3
-01:33.867	ID:3	[INFO: App       ] Round trip time: 9 ticks
+01:33.024	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 4
+01:33.035	ID:8	[INFO: App       ] Forwarding packet to next hop 4 [fd00::212:7404:4:404]
+01:33.043	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 2
+01:33.055	ID:7	[INFO: App       ] Forwarding packet to next hop 2 [fd00::212:7402:2:202]
+01:33.134	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 2
+01:33.138	ID:2	[INFO: App       ] Packet has reached final destination: 2
+01:33.142	ID:2	[INFO: App       ] Round trip time: 26 ticks
+01:33.144	ID:2	[INFO: App       ] Energy stats:
+01:33.148	ID:2	[INFO: App       ] CPU: 56 ticks
+01:33.153	ID:2	[INFO: App       ] LPM: 31 ticks
+01:33.181	ID:4	[INFO: App       ] Received packet of length 2 from fd00::212:7408:8:808 to fd00::212:7404:4:404[INFO: App       ] Received msg destined to ID: 4
+01:33.185	ID:4	[INFO: App       ] Packet has reached final destination: 4
+01:33.189	ID:4	[INFO: App       ] Round trip time: 42 ticks
+01:33.191	ID:4	[INFO: App       ] Energy stats:
+01:33.195	ID:4	[INFO: App       ] CPU: 88 ticks
+01:33.200	ID:4	[INFO: App       ] LPM: 50 ticks
+01:33.989	ID:3	[INFO: App       ] Current node rank: 0
+01:33.996	ID:3	[INFO: App       ] Sending request 7 to fd00::212:7406:6:606
+01:34.016	ID:6	[INFO: UDP-Server] Received packet for ID 3fd00::212:7403:3:303
+01:34.024	ID:6	[INFO: UDP-Server] Forwarding to destination ID 3 via next hop: fd00::212:7403:3:303
+01:34.063	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 3
+01:34.067	ID:3	[INFO: App       ] Packet has reached final destination: 3
+01:34.070	ID:3	[INFO: App       ] Round trip time: 9 ticks
+01:34.073	ID:3	[INFO: App       ] Energy stats:
+01:34.077	ID:3	[INFO: App       ] CPU: 22 ticks
+01:34.082	ID:3	[INFO: App       ] LPM: 10 ticks
 01:34.277	ID:1	[INFO: App       ] Current node rank: 0
 01:34.284	ID:1	[INFO: App       ] Sending request 6 to fd00::212:7406:6:606
 01:34.314	ID:6	[INFO: UDP-Server] Received packet for ID 1fd00::212:7401:1:101
@@ -565,16 +709,22 @@
 01:34.379	ID:7	[INFO: App       ] Sending request 6 to fd00::212:7406:6:606
 01:34.448	ID:6	[INFO: UDP-Server] Received packet for ID 7fd00::212:7407:7:707
 01:34.456	ID:6	[INFO: UDP-Server] Forwarding to destination ID 7 via next hop: fd00::212:7407:7:707
-01:34.477	ID:1	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7401:1:101[INFO: App       ] Received msg destined to ID: 1
-01:34.481	ID:1	[INFO: App       ] Packet has reached final destination: 1
-01:34.485	ID:1	[INFO: App       ] Round trip time: 25 ticks
 01:34.492	ID:5	[INFO: App       ] Current node rank: 0
 01:34.500	ID:5	[INFO: App       ] Sending request 7 to fd00::212:7406:6:606
+01:34.508	ID:1	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7401:1:101[INFO: App       ] Received msg destined to ID: 1
+01:34.512	ID:1	[INFO: App       ] Packet has reached final destination: 1
+01:34.516	ID:1	[INFO: App       ] Round trip time: 29 ticks
 01:34.518	ID:6	[INFO: UDP-Server] Received packet for ID 5fd00::212:7405:5:505
+01:34.518	ID:1	[INFO: App       ] Energy stats:
+01:34.523	ID:1	[INFO: App       ] CPU: 62 ticks
 01:34.526	ID:6	[INFO: UDP-Server] Forwarding to destination ID 5 via next hop: fd00::212:7407:7:707
+01:34.527	ID:1	[INFO: App       ] LPM: 34 ticks
 01:34.560	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 7
 01:34.564	ID:7	[INFO: App       ] Packet has reached final destination: 7
 01:34.568	ID:7	[INFO: App       ] Round trip time: 24 ticks
+01:34.571	ID:7	[INFO: App       ] Energy stats:
+01:34.575	ID:7	[INFO: App       ] CPU: 52 ticks
+01:34.580	ID:7	[INFO: App       ] LPM: 28 ticks
 01:34.645	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 5
 01:34.656	ID:7	[INFO: App       ] Forwarding packet to next hop 2 [fd00::212:7402:2:202]
 01:34.720	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 5
@@ -582,235 +732,302 @@
 01:34.813	ID:5	[INFO: App       ] Received packet of length 2 from fd00::212:7402:2:202 to fd00::212:7405:5:505[INFO: App       ] Received msg destined to ID: 5
 01:34.817	ID:5	[INFO: App       ] Packet has reached final destination: 5
 01:34.821	ID:5	[INFO: App       ] Round trip time: 41 ticks
+01:34.824	ID:5	[INFO: App       ] Energy stats:
+01:34.828	ID:5	[INFO: App       ] CPU: 86 ticks
+01:34.833	ID:5	[INFO: App       ] LPM: 49 ticks
 01:34.874	ID:8	[INFO: App       ] Current node rank: 0
 01:34.882	ID:8	[INFO: App       ] Sending request 7 to fd00::212:7406:6:606
-01:34.900	ID:6	[INFO: UDP-Server] Received packet for ID 8fd00::212:7408:8:808
-01:34.908	ID:6	[INFO: UDP-Server] Forwarding to destination ID 8 via next hop: fd00::212:7403:3:303
-01:34.969	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 8
-01:34.980	ID:3	[INFO: App       ] Forwarding packet to next hop 8 [fd00::212:7408:8:808]
-01:35.048	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 8
-01:35.052	ID:8	[INFO: App       ] Packet has reached final destination: 8
-01:35.055	ID:8	[INFO: App       ] Round trip time: 22 ticks
-01:43.067	ID:3	[INFO: App       ] Current node rank: 0
-01:43.074	ID:3	[INFO: App       ] Sending request 8 to fd00::212:7406:6:606
-01:43.109	ID:6	[INFO: UDP-Server] Received packet for ID 3fd00::212:7403:3:303
-01:43.118	ID:6	[INFO: UDP-Server] Forwarding to destination ID 3 via next hop: fd00::212:7403:3:303
-01:43.172	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 3
-01:43.176	ID:3	[INFO: App       ] Packet has reached final destination: 3
-01:43.180	ID:3	[INFO: App       ] Round trip time: 13 ticks
+01:34.909	ID:6	[INFO: UDP-Server] Received packet for ID 8fd00::212:7408:8:808
+01:34.917	ID:6	[INFO: UDP-Server] Forwarding to destination ID 8 via next hop: fd00::212:7403:3:303
+01:34.977	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 8
+01:34.988	ID:3	[INFO: App       ] Forwarding packet to next hop 8 [fd00::212:7408:8:808]
+01:35.095	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 8
+01:35.099	ID:8	[INFO: App       ] Packet has reached final destination: 8
+01:35.102	ID:8	[INFO: App       ] Round trip time: 28 ticks
+01:35.105	ID:8	[INFO: App       ] Energy stats:
+01:35.109	ID:8	[INFO: App       ] CPU: 60 ticks
+01:35.114	ID:8	[INFO: App       ] LPM: 33 ticks
 01:43.368	ID:4	[INFO: App       ] Current node rank: 0
 01:43.375	ID:4	[INFO: App       ] Sending request 8 to fd00::212:7406:6:606
 01:43.418	ID:6	[INFO: UDP-Server] Received packet for ID 4fd00::212:7404:4:404
 01:43.427	ID:6	[INFO: UDP-Server] Forwarding to destination ID 4 via next hop: fd00::212:7403:3:303
-01:43.500	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 4
-01:43.511	ID:3	[INFO: App       ] Forwarding packet to next hop 8 [fd00::212:7408:8:808]
-01:43.581	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 4
-01:43.592	ID:8	[INFO: App       ] Forwarding packet to next hop 4 [fd00::212:7404:4:404]
+01:43.485	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 4
+01:43.496	ID:3	[INFO: App       ] Forwarding packet to next hop 8 [fd00::212:7408:8:808]
+01:43.571	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 4
+01:43.582	ID:8	[INFO: App       ] Forwarding packet to next hop 4 [fd00::212:7404:4:404]
 01:43.598	ID:7	[INFO: App       ] Current node rank: 0
 01:43.605	ID:7	[INFO: App       ] Sending request 7 to fd00::212:7406:6:606
+01:43.617	ID:4	[INFO: App       ] Received packet of length 2 from fd00::212:7408:8:808 to fd00::212:7404:4:404[INFO: App       ] Received msg destined to ID: 4
+01:43.621	ID:4	[INFO: App       ] Packet has reached final destination: 4
+01:43.625	ID:4	[INFO: App       ] Round trip time: 31 ticks
+01:43.628	ID:4	[INFO: App       ] Energy stats:
+01:43.632	ID:4	[INFO: App       ] CPU: 66 ticks
+01:43.637	ID:4	[INFO: App       ] LPM: 37 ticks
 01:43.660	ID:6	[INFO: UDP-Server] Received packet for ID 7fd00::212:7407:7:707
 01:43.669	ID:6	[INFO: UDP-Server] Forwarding to destination ID 7 via next hop: fd00::212:7407:7:707
-01:43.697	ID:4	[INFO: App       ] Received packet of length 2 from fd00::212:7408:8:808 to fd00::212:7404:4:404[INFO: App       ] Received msg destined to ID: 4
-01:43.701	ID:4	[INFO: App       ] Packet has reached final destination: 4
-01:43.705	ID:4	[INFO: App       ] Round trip time: 42 ticks
 01:43.746	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 7
 01:43.750	ID:7	[INFO: App       ] Packet has reached final destination: 7
 01:43.754	ID:7	[INFO: App       ] Round trip time: 18 ticks
+01:43.757	ID:7	[INFO: App       ] Energy stats:
+01:43.761	ID:7	[INFO: App       ] CPU: 40 ticks
+01:43.766	ID:7	[INFO: App       ] LPM: 21 ticks
 01:43.826	ID:2	[INFO: App       ] Current node rank: 0
 01:43.833	ID:2	[INFO: App       ] Sending request 8 to fd00::212:7406:6:606
 01:43.884	ID:6	[INFO: UDP-Server] Received packet for ID 2fd00::212:7402:2:202
-01:43.892	ID:6	[INFO: UDP-Server] Forwarding to destination ID 2 via next hop: fd00::212:7407:7:707
-01:43.973	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 2
-01:43.984	ID:7	[INFO: App       ] Forwarding packet to next hop 2 [fd00::212:7402:2:202]
+01:43.893	ID:6	[INFO: UDP-Server] Forwarding to destination ID 2 via next hop: fd00::212:7407:7:707
+01:43.996	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 2
+01:44.008	ID:7	[INFO: App       ] Forwarding packet to next hop 2 [fd00::212:7402:2:202]
 01:44.118	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 2
 01:44.122	ID:2	[INFO: App       ] Packet has reached final destination: 2
 01:44.126	ID:2	[INFO: App       ] Round trip time: 37 ticks
+01:44.128	ID:2	[INFO: App       ] Energy stats:
+01:44.133	ID:2	[INFO: App       ] CPU: 78 ticks
+01:44.138	ID:2	[INFO: App       ] LPM: 44 ticks
+01:44.679	ID:8	[INFO: App       ] Current node rank: 0
+01:44.686	ID:8	[INFO: App       ] Sending request 8 to fd00::212:7406:6:606
+01:44.723	ID:3	[INFO: App       ] Current node rank: 0
+01:44.729	ID:6	[INFO: UDP-Server] Received packet for ID 8fd00::212:7408:8:808
+01:44.731	ID:3	[INFO: App       ] Sending request 8 to fd00::212:7406:6:606
+01:44.737	ID:6	[INFO: UDP-Server] Forwarding to destination ID 8 via next hop: fd00::212:7403:3:303
 01:44.745	ID:1	[INFO: App       ] Current node rank: 0
 01:44.753	ID:1	[INFO: App       ] Sending request 7 to fd00::212:7406:6:606
-01:44.837	ID:6	[INFO: UDP-Server] Received packet for ID 1fd00::212:7401:1:101
-01:44.845	ID:6	[INFO: UDP-Server] Forwarding to destination ID 1 via next hop: fd00::212:7403:3:303
-01:44.880	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 1
-01:44.891	ID:3	[INFO: App       ] Forwarding packet to next hop 1 [fd00::212:7401:1:101]
-01:45.000	ID:1	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7401:1:101[INFO: App       ] Received msg destined to ID: 1
-01:45.004	ID:1	[INFO: App       ] Packet has reached final destination: 1
-01:45.008	ID:1	[INFO: App       ] Round trip time: 32 ticks
+01:44.766	ID:6	[INFO: UDP-Server] Received packet for ID 3fd00::212:7403:3:303
+01:44.774	ID:6	[INFO: UDP-Server] Forwarding to destination ID 3 via next hop: fd00::212:7403:3:303
+01:44.821	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 8
+01:44.831	ID:3	[INFO: App       ] Forwarding packet to next hop 8 [fd00::212:7408:8:808]
+01:44.852	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 3
+01:44.856	ID:3	[INFO: App       ] Packet has reached final destination: 3
+01:44.860	ID:3	[INFO: App       ] Round trip time: 16 ticks
+01:44.862	ID:3	[INFO: App       ] Energy stats:
+01:44.867	ID:3	[INFO: App       ] CPU: 36 ticks
+01:44.871	ID:3	[INFO: App       ] LPM: 19 ticks
+01:44.886	ID:6	[INFO: UDP-Server] Received packet for ID 1fd00::212:7401:1:101
+01:44.894	ID:6	[INFO: UDP-Server] Forwarding to destination ID 1 via next hop: fd00::212:7403:3:303
+01:44.977	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 8
+01:44.981	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 1
+01:44.981	ID:8	[INFO: App       ] Packet has reached final destination: 8
+01:44.985	ID:8	[INFO: App       ] Round trip time: 38 ticks
+01:44.988	ID:8	[INFO: App       ] Energy stats:
+01:44.992	ID:8	[INFO: App       ] CPU: 80 ticks
+01:44.992	ID:3	[INFO: App       ] Forwarding packet to next hop 1 [fd00::212:7401:1:101]
+01:44.997	ID:8	[INFO: App       ] LPM: 45 ticks
+01:45.094	ID:1	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7401:1:101[INFO: App       ] Received msg destined to ID: 1
+01:45.098	ID:1	[INFO: App       ] Packet has reached final destination: 1
+01:45.102	ID:1	[INFO: App       ] Round trip time: 44 ticks
+01:45.104	ID:1	[INFO: App       ] Energy stats:
+01:45.109	ID:1	[INFO: App       ] CPU: 92 ticks
+01:45.113	ID:1	[INFO: App       ] LPM: 52 ticks
 01:45.195	ID:5	[INFO: App       ] Current node rank: 0
 01:45.203	ID:5	[INFO: App       ] Sending request 8 to fd00::212:7406:6:606
 01:45.230	ID:6	[INFO: UDP-Server] Received packet for ID 5fd00::212:7405:5:505
 01:45.238	ID:6	[INFO: UDP-Server] Forwarding to destination ID 5 via next hop: fd00::212:7407:7:707
-01:45.332	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 5
-01:45.344	ID:7	[INFO: App       ] Forwarding packet to next hop 2 [fd00::212:7402:2:202]
-01:45.390	ID:8	[INFO: App       ] Current node rank: 0
-01:45.397	ID:8	[INFO: App       ] Sending request 8 to fd00::212:7406:6:606
-01:45.415	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 5
-01:45.416	ID:6	[INFO: UDP-Server] Received packet for ID 8fd00::212:7408:8:808
-01:45.425	ID:6	[INFO: UDP-Server] Forwarding to destination ID 8 via next hop: fd00::212:7403:3:303
-01:45.426	ID:2	[INFO: App       ] Forwarding packet to next hop 5 [fd00::212:7405:5:505]
-01:45.452	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 8
-01:45.463	ID:3	[INFO: App       ] Forwarding packet to next hop 8 [fd00::212:7408:8:808]
-01:45.485	ID:5	[INFO: App       ] Received packet of length 2 from fd00::212:7402:2:202 to fd00::212:7405:5:505[INFO: App       ] Received msg destined to ID: 5
-01:45.489	ID:5	[INFO: App       ] Packet has reached final destination: 5
-01:45.493	ID:5	[INFO: App       ] Round trip time: 37 ticks
-01:45.540	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 8
-01:45.544	ID:8	[INFO: App       ] Packet has reached final destination: 8
-01:45.548	ID:8	[INFO: App       ] Round trip time: 19 ticks
-01:53.239	ID:3	[INFO: App       ] Current node rank: 0
-01:53.246	ID:3	[INFO: App       ] Sending request 9 to fd00::212:7406:6:606
-01:53.265	ID:6	[INFO: UDP-Server] Received packet for ID 3fd00::212:7403:3:303
-01:53.274	ID:6	[INFO: UDP-Server] Forwarding to destination ID 3 via next hop: fd00::212:7403:3:303
-01:53.309	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 3
-01:53.313	ID:3	[INFO: App       ] Packet has reached final destination: 3
-01:53.317	ID:3	[INFO: App       ] Round trip time: 8 ticks
+01:45.317	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 5
+01:45.328	ID:7	[INFO: App       ] Forwarding packet to next hop 2 [fd00::212:7402:2:202]
+01:45.399	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 5
+01:45.410	ID:2	[INFO: App       ] Forwarding packet to next hop 5 [fd00::212:7405:5:505]
+01:45.458	ID:5	[INFO: App       ] Received packet of length 2 from fd00::212:7402:2:202 to fd00::212:7405:5:505[INFO: App       ] Received msg destined to ID: 5
+01:45.462	ID:5	[INFO: App       ] Packet has reached final destination: 5
+01:45.466	ID:5	[INFO: App       ] Round trip time: 33 ticks
+01:45.468	ID:5	[INFO: App       ] Energy stats:
+01:45.473	ID:5	[INFO: App       ] CPU: 70 ticks
+01:45.477	ID:5	[INFO: App       ] LPM: 39 ticks
 01:53.680	ID:4	[INFO: App       ] Current node rank: 0
-01:53.687	ID:4	[INFO: App       ] Sending request 9 to fd00::212:7406:6:606
+01:53.688	ID:4	[INFO: App       ] Sending request 9 to fd00::212:7406:6:606
 01:53.731	ID:6	[INFO: UDP-Server] Received packet for ID 4fd00::212:7404:4:404
 01:53.739	ID:6	[INFO: UDP-Server] Forwarding to destination ID 4 via next hop: fd00::212:7403:3:303
 01:53.805	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 4
 01:53.816	ID:3	[INFO: App       ] Forwarding packet to next hop 8 [fd00::212:7408:8:808]
-01:53.907	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 4
-01:53.918	ID:8	[INFO: App       ] Forwarding packet to next hop 4 [fd00::212:7404:4:404]
+01:53.899	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 4
+01:53.910	ID:8	[INFO: App       ] Forwarding packet to next hop 4 [fd00::212:7404:4:404]
 01:53.942	ID:7	[INFO: App       ] Current node rank: 0
 01:53.949	ID:7	[INFO: App       ] Sending request 8 to fd00::212:7406:6:606
+01:53.985	ID:4	[INFO: App       ] Received packet of length 2 from fd00::212:7408:8:808 to fd00::212:7404:4:404[INFO: App       ] Received msg destined to ID: 4
+01:53.989	ID:4	[INFO: App       ] Packet has reached final destination: 4
+01:53.993	ID:4	[INFO: App       ] Round trip time: 38 ticks
+01:53.995	ID:4	[INFO: App       ] Energy stats:
+01:54.000	ID:4	[INFO: App       ] CPU: 80 ticks
+01:54.005	ID:4	[INFO: App       ] LPM: 45 ticks
 01:54.020	ID:6	[INFO: UDP-Server] Received packet for ID 7fd00::212:7407:7:707
 01:54.028	ID:6	[INFO: UDP-Server] Forwarding to destination ID 7 via next hop: fd00::212:7407:7:707
-01:54.057	ID:4	[INFO: App       ] Received packet of length 2 from fd00::212:7408:8:808 to fd00::212:7404:4:404[INFO: App       ] Received msg destined to ID: 4
-01:54.061	ID:4	[INFO: App       ] Packet has reached final destination: 4
-01:54.064	ID:4	[INFO: App       ] Round trip time: 48 ticks
-01:54.121	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 7
-01:54.125	ID:7	[INFO: App       ] Packet has reached final destination: 7
-01:54.129	ID:7	[INFO: App       ] Round trip time: 22 ticks
+01:54.129	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 7
+01:54.133	ID:7	[INFO: App       ] Packet has reached final destination: 7
 01:54.136	ID:1	[INFO: App       ] Current node rank: 0
+01:54.137	ID:7	[INFO: App       ] Round trip time: 23 ticks
+01:54.139	ID:7	[INFO: App       ] Energy stats:
 01:54.143	ID:1	[INFO: App       ] Sending request 8 to fd00::212:7406:6:606
-01:54.227	ID:6	[INFO: UDP-Server] Received packet for ID 1fd00::212:7401:1:101
-01:54.236	ID:6	[INFO: UDP-Server] Forwarding to destination ID 1 via next hop: fd00::212:7403:3:303
-01:54.274	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 1
-01:54.285	ID:3	[INFO: App       ] Forwarding packet to next hop 1 [fd00::212:7401:1:101]
+01:54.144	ID:7	[INFO: App       ] CPU: 50 ticks
+01:54.148	ID:7	[INFO: App       ] LPM: 27 ticks
+01:54.211	ID:6	[INFO: UDP-Server] Received packet for ID 1fd00::212:7401:1:101
+01:54.220	ID:6	[INFO: UDP-Server] Forwarding to destination ID 1 via next hop: fd00::212:7403:3:303
+01:54.258	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 1
+01:54.269	ID:3	[INFO: App       ] Forwarding packet to next hop 1 [fd00::212:7401:1:101]
 01:54.336	ID:5	[INFO: App       ] Current node rank: 0
 01:54.343	ID:5	[INFO: App       ] Sending request 9 to fd00::212:7406:6:606
 01:54.375	ID:1	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7401:1:101[INFO: App       ] Received msg destined to ID: 1
 01:54.378	ID:6	[INFO: UDP-Server] Received packet for ID 5fd00::212:7405:5:505
 01:54.379	ID:1	[INFO: App       ] Packet has reached final destination: 1
 01:54.383	ID:1	[INFO: App       ] Round trip time: 30 ticks
+01:54.385	ID:1	[INFO: App       ] Energy stats:
 01:54.387	ID:6	[INFO: UDP-Server] Forwarding to destination ID 5 via next hop: fd00::212:7407:7:707
+01:54.390	ID:1	[INFO: App       ] CPU: 64 ticks
+01:54.395	ID:1	[INFO: App       ] LPM: 36 ticks
 01:54.449	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 5
 01:54.461	ID:7	[INFO: App       ] Forwarding packet to next hop 2 [fd00::212:7402:2:202]
-01:54.571	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 5
-01:54.582	ID:2	[INFO: App       ] Forwarding packet to next hop 5 [fd00::212:7405:5:505]
-01:54.657	ID:5	[INFO: App       ] Received packet of length 2 from fd00::212:7402:2:202 to fd00::212:7405:5:505[INFO: App       ] Received msg destined to ID: 5
-01:54.661	ID:5	[INFO: App       ] Packet has reached final destination: 5
-01:54.665	ID:5	[INFO: App       ] Round trip time: 41 ticks
+01:54.532	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 5
+01:54.543	ID:2	[INFO: App       ] Forwarding packet to next hop 5 [fd00::212:7405:5:505]
+01:54.641	ID:5	[INFO: App       ] Received packet of length 2 from fd00::212:7402:2:202 to fd00::212:7405:5:505[INFO: App       ] Received msg destined to ID: 5
+01:54.646	ID:5	[INFO: App       ] Packet has reached final destination: 5
+01:54.649	ID:5	[INFO: App       ] Round trip time: 39 ticks
+01:54.652	ID:5	[INFO: App       ] Energy stats:
+01:54.656	ID:5	[INFO: App       ] CPU: 82 ticks
+01:54.661	ID:5	[INFO: App       ] LPM: 46 ticks
 01:54.779	ID:2	[INFO: App       ] Current node rank: 0
 01:54.786	ID:2	[INFO: App       ] Sending request 9 to fd00::212:7406:6:606
-01:54.844	ID:6	[INFO: UDP-Server] Received packet for ID 2fd00::212:7402:2:202
+01:54.845	ID:6	[INFO: UDP-Server] Received packet for ID 2fd00::212:7402:2:202
 01:54.853	ID:6	[INFO: UDP-Server] Forwarding to destination ID 2 via next hop: fd00::212:7407:7:707
-01:54.941	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 2
-01:54.953	ID:7	[INFO: App       ] Forwarding packet to next hop 2 [fd00::212:7402:2:202]
-01:55.009	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 2
-01:55.013	ID:2	[INFO: App       ] Packet has reached final destination: 2
-01:55.017	ID:2	[INFO: App       ] Round trip time: 29 ticks
-01:55.054	ID:8	[INFO: App       ] Current node rank: 0
-01:55.061	ID:8	[INFO: App       ] Sending request 9 to fd00::212:7406:6:606
-01:55.096	ID:6	[INFO: UDP-Server] Received packet for ID 8fd00::212:7408:8:808
-01:55.105	ID:6	[INFO: UDP-Server] Forwarding to destination ID 8 via next hop: fd00::212:7403:3:303
-01:55.133	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 8
-01:55.144	ID:3	[INFO: App       ] Forwarding packet to next hop 8 [fd00::212:7408:8:808]
-01:55.235	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 8
-01:55.239	ID:8	[INFO: App       ] Packet has reached final destination: 8
-01:55.243	ID:8	[INFO: App       ] Round trip time: 23 ticks
+01:54.895	ID:3	[INFO: App       ] Current node rank: 0
+01:54.903	ID:3	[INFO: App       ] Sending request 9 to fd00::212:7406:6:606
+01:54.926	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 2
+01:54.938	ID:6	[INFO: UDP-Server] Received packet for ID 3fd00::212:7403:3:303
+01:54.938	ID:7	[INFO: App       ] Forwarding packet to next hop 2 [fd00::212:7402:2:202]
+01:54.946	ID:6	[INFO: UDP-Server] Forwarding to destination ID 3 via next hop: fd00::212:7403:3:303
+01:55.001	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 2
+01:55.005	ID:2	[INFO: App       ] Packet has reached final destination: 2
+01:55.008	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 3
+01:55.009	ID:2	[INFO: App       ] Round trip time: 28 ticks
+01:55.011	ID:2	[INFO: App       ] Energy stats:
+01:55.012	ID:3	[INFO: App       ] Packet has reached final destination: 3
+01:55.016	ID:2	[INFO: App       ] CPU: 60 ticks
+01:55.016	ID:3	[INFO: App       ] Round trip time: 14 ticks
+01:55.018	ID:3	[INFO: App       ] Energy stats:
+01:55.021	ID:2	[INFO: App       ] LPM: 33 ticks
+01:55.023	ID:3	[INFO: App       ] CPU: 32 ticks
+01:55.027	ID:3	[INFO: App       ] LPM: 16 ticks
+01:55.663	ID:8	[INFO: App       ] Current node rank: 0
+01:55.671	ID:8	[INFO: App       ] Sending request 9 to fd00::212:7406:6:606
+01:55.706	ID:6	[INFO: UDP-Server] Received packet for ID 8fd00::212:7408:8:808
+01:55.714	ID:6	[INFO: UDP-Server] Forwarding to destination ID 8 via next hop: fd00::212:7403:3:303
+01:55.742	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 8
+01:55.754	ID:3	[INFO: App       ] Forwarding packet to next hop 8 [fd00::212:7408:8:808]
+01:55.837	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 8
+01:55.841	ID:8	[INFO: App       ] Packet has reached final destination: 8
+01:55.845	ID:8	[INFO: App       ] Round trip time: 22 ticks
+01:55.847	ID:8	[INFO: App       ] Energy stats:
+01:55.851	ID:8	[INFO: App       ] CPU: 48 ticks
+01:55.856	ID:8	[INFO: App       ] LPM: 26 ticks
 02:03.492	ID:5	[INFO: App       ] Current node rank: 0
-02:03.496	ID:5	[INFO: App       ] Tx/Rx/MissedTx: 10/0/0
+02:03.497	ID:5	[INFO: App       ] Tx/Rx/MissedTx: 10/0/0
 02:03.504	ID:5	[INFO: App       ] Sending request 10 to fd00::212:7406:6:606
 02:03.550	ID:6	[INFO: UDP-Server] Received packet for ID 5fd00::212:7405:5:505
 02:03.559	ID:6	[INFO: UDP-Server] Forwarding to destination ID 5 via next hop: fd00::212:7407:7:707
 02:03.621	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 5
 02:03.633	ID:7	[INFO: App       ] Forwarding packet to next hop 2 [fd00::212:7402:2:202]
-02:03.751	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 5
-02:03.762	ID:2	[INFO: App       ] Forwarding packet to next hop 5 [fd00::212:7405:5:505]
-02:03.833	ID:5	[INFO: App       ] Received packet of length 2 from fd00::212:7402:2:202 to fd00::212:7405:5:505[INFO: App       ] Received msg destined to ID: 5
-02:03.837	ID:5	[INFO: App       ] Packet has reached final destination: 5
-02:03.841	ID:5	[INFO: App       ] Round trip time: 42 ticks
+02:03.774	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 5
+02:03.786	ID:2	[INFO: App       ] Forwarding packet to next hop 5 [fd00::212:7405:5:505]
+02:03.857	ID:5	[INFO: App       ] Received packet of length 2 from fd00::212:7402:2:202 to fd00::212:7405:5:505[INFO: App       ] Received msg destined to ID: 5
+02:03.861	ID:5	[INFO: App       ] Packet has reached final destination: 5
+02:03.864	ID:5	[INFO: App       ] Round trip time: 45 ticks
+02:03.867	ID:5	[INFO: App       ] Energy stats:
+02:03.871	ID:5	[INFO: App       ] CPU: 94 ticks
+02:03.876	ID:5	[INFO: App       ] LPM: 54 ticks
 02:04.004	ID:7	[INFO: App       ] Current node rank: 0
 02:04.012	ID:7	[INFO: App       ] Sending request 9 to fd00::212:7406:6:606
-02:04.028	ID:3	[INFO: App       ] Current node rank: 0
-02:04.032	ID:3	[INFO: App       ] Tx/Rx/MissedTx: 10/0/0
-02:04.040	ID:3	[INFO: App       ] Sending request 10 to fd00::212:7406:6:606
-02:04.070	ID:6	[INFO: UDP-Server] Received packet for ID 3fd00::212:7403:3:303
-02:04.079	ID:6	[INFO: UDP-Server] Forwarding to destination ID 3 via next hop: fd00::212:7403:3:303
-02:04.118	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 3
-02:04.122	ID:3	[INFO: App       ] Packet has reached final destination: 3
-02:04.126	ID:3	[INFO: App       ] Round trip time: 10 ticks
-02:04.246	ID:6	[INFO: UDP-Server] Received packet for ID 7fd00::212:7407:7:707
-02:04.254	ID:6	[INFO: UDP-Server] Forwarding to destination ID 7 via next hop: fd00::212:7407:7:707
-02:04.323	ID:1	[INFO: App       ] Current node rank: 0
-02:04.324	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 7
-02:04.328	ID:7	[INFO: App       ] Packet has reached final destination: 7
+02:04.043	ID:6	[INFO: UDP-Server] Received packet for ID 7fd00::212:7407:7:707
+02:04.051	ID:6	[INFO: UDP-Server] Forwarding to destination ID 7 via next hop: fd00::212:7407:7:707
+02:04.052	ID:3	[INFO: App       ] Current node rank: 0
+02:04.056	ID:3	[INFO: App       ] Tx/Rx/MissedTx: 10/0/0
+02:04.063	ID:3	[INFO: App       ] Sending request 10 to fd00::212:7406:6:606
+02:04.102	ID:6	[INFO: UDP-Server] Received packet for ID 3fd00::212:7403:3:303
+02:04.110	ID:6	[INFO: UDP-Server] Forwarding to destination ID 3 via next hop: fd00::212:7403:3:303
+02:04.165	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 3
+02:04.169	ID:3	[INFO: App       ] Packet has reached final destination: 3
+02:04.173	ID:3	[INFO: App       ] Round trip time: 13 ticks
+02:04.175	ID:3	[INFO: App       ] Energy stats:
+02:04.179	ID:3	[INFO: App       ] CPU: 30 ticks
+02:04.184	ID:3	[INFO: App       ] LPM: 15 ticks
+02:04.215	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 7
+02:04.219	ID:7	[INFO: App       ] Packet has reached final destination: 7
+02:04.223	ID:7	[INFO: App       ] Round trip time: 26 ticks
+02:04.225	ID:7	[INFO: App       ] Energy stats:
+02:04.230	ID:7	[INFO: App       ] CPU: 56 ticks
+02:04.234	ID:7	[INFO: App       ] LPM: 31 ticks
+02:04.324	ID:1	[INFO: App       ] Current node rank: 0
 02:04.331	ID:1	[INFO: App       ] Sending request 9 to fd00::212:7406:6:606
-02:04.332	ID:7	[INFO: App       ] Round trip time: 40 ticks
-02:04.414	ID:6	[INFO: UDP-Server] Received packet for ID 1fd00::212:7401:1:101
-02:04.423	ID:6	[INFO: UDP-Server] Forwarding to destination ID 1 via next hop: fd00::212:7403:3:303
-02:04.461	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 1
-02:04.473	ID:3	[INFO: App       ] Forwarding packet to next hop 1 [fd00::212:7401:1:101]
-02:04.546	ID:8	[INFO: App       ] Current node rank: 0
-02:04.550	ID:8	[INFO: App       ] Tx/Rx/MissedTx: 10/0/0
-02:04.558	ID:8	[INFO: App       ] Sending request 10 to fd00::212:7406:6:606
-02:04.594	ID:1	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7401:1:101[INFO: App       ] Received msg destined to ID: 1
-02:04.598	ID:1	[INFO: App       ] Packet has reached final destination: 1
-02:04.602	ID:1	[INFO: App       ] Round trip time: 34 ticks
-02:04.604	ID:6	[INFO: UDP-Server] Received packet for ID 8fd00::212:7408:8:808
-02:04.613	ID:6	[INFO: UDP-Server] Forwarding to destination ID 8 via next hop: fd00::212:7403:3:303
-02:04.641	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 8
-02:04.652	ID:3	[INFO: App       ] Forwarding packet to next hop 8 [fd00::212:7408:8:808]
+02:04.399	ID:6	[INFO: UDP-Server] Received packet for ID 1fd00::212:7401:1:101
+02:04.407	ID:6	[INFO: UDP-Server] Forwarding to destination ID 1 via next hop: fd00::212:7403:3:303
+02:04.446	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 1
+02:04.457	ID:3	[INFO: App       ] Forwarding packet to next hop 1 [fd00::212:7401:1:101]
+02:04.586	ID:1	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7401:1:101[INFO: App       ] Received msg destined to ID: 1
+02:04.590	ID:1	[INFO: App       ] Packet has reached final destination: 1
+02:04.594	ID:1	[INFO: App       ] Round trip time: 33 ticks
+02:04.596	ID:1	[INFO: App       ] Energy stats:
+02:04.601	ID:1	[INFO: App       ] CPU: 70 ticks
+02:04.605	ID:1	[INFO: App       ] LPM: 39 ticks
 02:04.665	ID:4	[INFO: App       ] Current node rank: 0
 02:04.669	ID:4	[INFO: App       ] Tx/Rx/MissedTx: 10/0/0
 02:04.676	ID:4	[INFO: App       ] Sending request 10 to fd00::212:7406:6:606
 02:04.707	ID:6	[INFO: UDP-Server] Received packet for ID 4fd00::212:7404:4:404
 02:04.716	ID:6	[INFO: UDP-Server] Forwarding to destination ID 4 via next hop: fd00::212:7403:3:303
-02:04.744	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 8
-02:04.748	ID:8	[INFO: App       ] Packet has reached final destination: 8
-02:04.752	ID:8	[INFO: App       ] Round trip time: 24 ticks
-02:04.789	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 4
-02:04.800	ID:3	[INFO: App       ] Forwarding packet to next hop 8 [fd00::212:7408:8:808]
-02:04.837	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 4
-02:04.848	ID:8	[INFO: App       ] Forwarding packet to next hop 4 [fd00::212:7404:4:404]
-02:04.915	ID:4	[INFO: App       ] Received packet of length 2 from fd00::212:7408:8:808 to fd00::212:7404:4:404[INFO: App       ] Received msg destined to ID: 4
-02:04.919	ID:4	[INFO: App       ] Packet has reached final destination: 4
-02:04.923	ID:4	[INFO: App       ] Round trip time: 31 ticks
+02:04.750	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 4
+02:04.761	ID:3	[INFO: App       ] Forwarding packet to next hop 8 [fd00::212:7408:8:808]
+02:04.821	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 4
+02:04.832	ID:8	[INFO: App       ] Forwarding packet to next hop 4 [fd00::212:7404:4:404]
+02:04.946	ID:4	[INFO: App       ] Received packet of length 2 from fd00::212:7408:8:808 to fd00::212:7404:4:404[INFO: App       ] Received msg destined to ID: 4
+02:04.951	ID:4	[INFO: App       ] Packet has reached final destination: 4
+02:04.954	ID:4	[INFO: App       ] Round trip time: 35 ticks
+02:04.957	ID:4	[INFO: App       ] Energy stats:
+02:04.961	ID:4	[INFO: App       ] CPU: 74 ticks
+02:04.966	ID:4	[INFO: App       ] LPM: 42 ticks
 02:05.201	ID:2	[INFO: App       ] Current node rank: 0
 02:05.205	ID:2	[INFO: App       ] Tx/Rx/MissedTx: 10/0/0
-02:05.212	ID:2	[INFO: App       ] Sending request 10 to fd00::212:7406:6:606
+02:05.213	ID:2	[INFO: App       ] Sending request 10 to fd00::212:7406:6:606
 02:05.243	ID:6	[INFO: UDP-Server] Received packet for ID 2fd00::212:7402:2:202
 02:05.252	ID:6	[INFO: UDP-Server] Forwarding to destination ID 2 via next hop: fd00::212:7407:7:707
-02:05.340	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 2
-02:05.352	ID:7	[INFO: App       ] Forwarding packet to next hop 2 [fd00::212:7402:2:202]
-02:05.438	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 2
-02:05.442	ID:2	[INFO: App       ] Packet has reached final destination: 2
-02:05.446	ID:2	[INFO: App       ] Round trip time: 29 ticks
+02:05.293	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 2
+02:05.305	ID:7	[INFO: App       ] Forwarding packet to next hop 2 [fd00::212:7402:2:202]
+02:05.407	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 2
+02:05.411	ID:2	[INFO: App       ] Packet has reached final destination: 2
+02:05.415	ID:2	[INFO: App       ] Round trip time: 25 ticks
+02:05.417	ID:2	[INFO: App       ] Energy stats:
+02:05.422	ID:2	[INFO: App       ] CPU: 54 ticks
+02:05.426	ID:2	[INFO: App       ] LPM: 30 ticks
+02:05.913	ID:8	[INFO: App       ] Current node rank: 0
+02:05.918	ID:8	[INFO: App       ] Tx/Rx/MissedTx: 10/0/0
+02:05.925	ID:8	[INFO: App       ] Sending request 10 to fd00::212:7406:6:606
+02:05.971	ID:6	[INFO: UDP-Server] Received packet for ID 8fd00::212:7408:8:808
+02:05.980	ID:6	[INFO: UDP-Server] Forwarding to destination ID 8 via next hop: fd00::212:7403:3:303
+02:06.047	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 8
+02:06.058	ID:3	[INFO: App       ] Forwarding packet to next hop 8 [fd00::212:7408:8:808]
+02:06.141	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 8
+02:06.146	ID:8	[INFO: App       ] Packet has reached final destination: 8
+02:06.149	ID:8	[INFO: App       ] Round trip time: 28 ticks
+02:06.152	ID:8	[INFO: App       ] Energy stats:
+02:06.156	ID:8	[INFO: App       ] CPU: 60 ticks
+02:06.161	ID:8	[INFO: App       ] LPM: 33 ticks
 02:13.211	ID:5	[INFO: App       ] Current node rank: 0
 02:13.219	ID:5	[INFO: App       ] Sending request 11 to fd00::212:7406:6:606
-02:13.245	ID:6	[INFO: UDP-Server] Received packet for ID 5fd00::212:7405:5:505
-02:13.254	ID:6	[INFO: UDP-Server] Forwarding to destination ID 5 via next hop: fd00::212:7407:7:707
-02:13.262	ID:7	[INFO: App       ] Current node rank: 0
-02:13.266	ID:7	[INFO: App       ] Tx/Rx/MissedTx: 10/0/0
-02:13.274	ID:7	[INFO: App       ] Sending request 10 to fd00::212:7406:6:606
-02:13.340	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 5
-02:13.351	ID:7	[INFO: App       ] Forwarding packet to next hop 2 [fd00::212:7402:2:202]
-02:13.413	ID:6	[INFO: UDP-Server] Received packet for ID 7fd00::212:7407:7:707
-02:13.421	ID:6	[INFO: UDP-Server] Forwarding to destination ID 7 via next hop: fd00::212:7407:7:707
-02:13.509	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 5
-02:13.520	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 7
-02:13.520	ID:2	[INFO: App       ] Forwarding packet to next hop 5 [fd00::212:7405:5:505]
-02:13.524	ID:7	[INFO: App       ] Packet has reached final destination: 7
-02:13.527	ID:7	[INFO: App       ] Round trip time: 31 ticks
+02:13.253	ID:6	[INFO: UDP-Server] Received packet for ID 5fd00::212:7405:5:505
+02:13.262	ID:6	[INFO: UDP-Server] Forwarding to destination ID 5 via next hop: fd00::212:7407:7:707
+02:13.348	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 5
+02:13.360	ID:7	[INFO: App       ] Forwarding packet to next hop 2 [fd00::212:7402:2:202]
+02:13.470	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 5
+02:13.481	ID:2	[INFO: App       ] Forwarding packet to next hop 5 [fd00::212:7405:5:505]
 02:13.587	ID:5	[INFO: App       ] Received packet of length 2 from fd00::212:7402:2:202 to fd00::212:7405:5:505[INFO: App       ] Received msg destined to ID: 5
 02:13.591	ID:5	[INFO: App       ] Packet has reached final destination: 5
-02:13.594	ID:5	[INFO: App       ] Round trip time: 48 ticks
-02:14.012	ID:3	[INFO: App       ] Current node rank: 0
-02:14.020	ID:3	[INFO: App       ] Sending request 11 to fd00::212:7406:6:606
-02:14.047	ID:6	[INFO: UDP-Server] Received packet for ID 3fd00::212:7403:3:303
-02:14.056	ID:6	[INFO: UDP-Server] Forwarding to destination ID 3 via next hop: fd00::212:7403:3:303
-02:14.118	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 3
-02:14.122	ID:3	[INFO: App       ] Packet has reached final destination: 3
-02:14.125	ID:3	[INFO: App       ] Round trip time: 13 ticks
+02:13.595	ID:5	[INFO: App       ] Round trip time: 48 ticks
+02:13.597	ID:5	[INFO: App       ] Energy stats:
+02:13.603	ID:5	[INFO: App       ] CPU: 100 ticks
+02:13.607	ID:5	[INFO: App       ] LPM: 57 ticks
+02:13.934	ID:3	[INFO: App       ] Current node rank: 0
+02:13.942	ID:3	[INFO: App       ] Sending request 11 to fd00::212:7406:6:606
+02:13.961	ID:6	[INFO: UDP-Server] Received packet for ID 3fd00::212:7403:3:303
+02:13.970	ID:6	[INFO: UDP-Server] Forwarding to destination ID 3 via next hop: fd00::212:7403:3:303
+02:14.005	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 3
+02:14.009	ID:3	[INFO: App       ] Packet has reached final destination: 3
+02:14.012	ID:3	[INFO: App       ] Round trip time: 8 ticks
+02:14.015	ID:3	[INFO: App       ] Energy stats:
+02:14.019	ID:3	[INFO: App       ] CPU: 20 ticks
+02:14.022	ID:3	[INFO: App       ] LPM: 9 ticks
 02:14.183	ID:1	[INFO: App       ] Current node rank: 0
 02:14.187	ID:1	[INFO: App       ] Tx/Rx/MissedTx: 10/0/0
 02:14.194	ID:1	[INFO: App       ] Sending request 10 to fd00::212:7406:6:606
@@ -818,366 +1035,508 @@
 02:14.211	ID:4	[INFO: App       ] Sending request 11 to fd00::212:7406:6:606
 02:14.262	ID:6	[INFO: UDP-Server] Received packet for ID 4fd00::212:7404:4:404
 02:14.270	ID:6	[INFO: UDP-Server] Forwarding to destination ID 4 via next hop: fd00::212:7403:3:303
+02:14.287	ID:6	[INFO: UDP-Server] Received packet for ID 1fd00::212:7401:1:101
+02:14.296	ID:6	[INFO: UDP-Server] Forwarding to destination ID 1 via next hop: fd00::212:7403:3:303
 02:14.336	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 4
 02:14.347	ID:3	[INFO: App       ] Forwarding packet to next hop 8 [fd00::212:7408:8:808]
-02:14.362	ID:6	[INFO: UDP-Server] Received packet for ID 1fd00::212:7401:1:101
-02:14.371	ID:6	[INFO: UDP-Server] Forwarding to destination ID 1 via next hop: fd00::212:7403:3:303
+02:14.406	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 1
+02:14.417	ID:3	[INFO: App       ] Forwarding packet to next hop 1 [fd00::212:7401:1:101]
 02:14.423	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 4
 02:14.434	ID:8	[INFO: App       ] Forwarding packet to next hop 4 [fd00::212:7404:4:404]
-02:14.446	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 1
-02:14.457	ID:3	[INFO: App       ] Forwarding packet to next hop 1 [fd00::212:7401:1:101]
-02:14.546	ID:4	[INFO: App       ] Received packet of length 2 from fd00::212:7408:8:808 to fd00::212:7404:4:404[INFO: App       ] Received msg destined to ID: 4
-02:14.550	ID:4	[INFO: App       ] Packet has reached final destination: 4
-02:14.553	ID:4	[INFO: App       ] Round trip time: 43 ticks
-02:14.578	ID:1	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7401:1:101[INFO: App       ] Received msg destined to ID: 1
-02:14.582	ID:1	[INFO: App       ] Packet has reached final destination: 1
-02:14.586	ID:1	[INFO: App       ] Round trip time: 49 ticks
+02:14.508	ID:1	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7401:1:101[INFO: App       ] Received msg destined to ID: 1
+02:14.512	ID:1	[INFO: App       ] Packet has reached final destination: 1
+02:14.516	ID:1	[INFO: App       ] Round trip time: 40 ticks
+02:14.518	ID:1	[INFO: App       ] Energy stats:
+02:14.523	ID:1	[INFO: App       ] CPU: 84 ticks
+02:14.527	ID:1	[INFO: App       ] LPM: 48 ticks
+02:14.540	ID:4	[INFO: App       ] Received packet of length 2 from fd00::212:7408:8:808 to fd00::212:7404:4:404[INFO: App       ] Received msg destined to ID: 4
+02:14.544	ID:4	[INFO: App       ] Packet has reached final destination: 4
+02:14.548	ID:4	[INFO: App       ] Round trip time: 42 ticks
+02:14.550	ID:4	[INFO: App       ] Energy stats:
+02:14.555	ID:4	[INFO: App       ] CPU: 88 ticks
+02:14.559	ID:4	[INFO: App       ] LPM: 50 ticks
 02:14.599	ID:2	[INFO: App       ] Current node rank: 0
 02:14.607	ID:2	[INFO: App       ] Sending request 11 to fd00::212:7406:6:606
 02:14.626	ID:6	[INFO: UDP-Server] Received packet for ID 2fd00::212:7402:2:202
 02:14.635	ID:6	[INFO: UDP-Server] Forwarding to destination ID 2 via next hop: fd00::212:7407:7:707
-02:14.738	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 2
-02:14.750	ID:7	[INFO: App       ] Forwarding packet to next hop 2 [fd00::212:7402:2:202]
-02:14.813	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 2
-02:14.817	ID:2	[INFO: App       ] Packet has reached final destination: 2
-02:14.821	ID:2	[INFO: App       ] Round trip time: 27 ticks
-02:15.405	ID:8	[INFO: App       ] Current node rank: 0
-02:15.413	ID:8	[INFO: App       ] Sending request 11 to fd00::212:7406:6:606
-02:15.440	ID:6	[INFO: UDP-Server] Received packet for ID 8fd00::212:7408:8:808
-02:15.448	ID:6	[INFO: UDP-Server] Forwarding to destination ID 8 via next hop: fd00::212:7403:3:303
-02:15.508	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 8
-02:15.519	ID:3	[INFO: App       ] Forwarding packet to next hop 8 [fd00::212:7408:8:808]
-02:15.582	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 8
-02:15.586	ID:8	[INFO: App       ] Packet has reached final destination: 8
-02:15.589	ID:8	[INFO: App       ] Round trip time: 22 ticks
-02:23.219	ID:5	[INFO: App       ] Current node rank: 0
-02:23.226	ID:5	[INFO: App       ] Sending request 12 to fd00::212:7406:6:606
-02:23.269	ID:6	[INFO: UDP-Server] Received packet for ID 5fd00::212:7405:5:505
-02:23.270	ID:7	[INFO: App       ] Current node rank: 0
-02:23.278	ID:7	[INFO: App       ] Sending request 11 to fd00::212:7406:6:606
-02:23.278	ID:6	[INFO: UDP-Server] Forwarding to destination ID 5 via next hop: fd00::212:7407:7:707
-02:23.355	ID:6	[INFO: UDP-Server] Received packet for ID 7fd00::212:7407:7:707
-02:23.364	ID:6	[INFO: UDP-Server] Forwarding to destination ID 7 via next hop: fd00::212:7407:7:707
-02:23.398	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 5
-02:23.410	ID:7	[INFO: App       ] Forwarding packet to next hop 2 [fd00::212:7402:2:202]
-02:23.470	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 7
-02:23.475	ID:7	[INFO: App       ] Packet has reached final destination: 7
-02:23.478	ID:7	[INFO: App       ] Round trip time: 25 ticks
-02:23.532	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 5
-02:23.543	ID:2	[INFO: App       ] Forwarding packet to next hop 5 [fd00::212:7405:5:505]
+02:14.707	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 2
+02:14.719	ID:7	[INFO: App       ] Forwarding packet to next hop 2 [fd00::212:7402:2:202]
+02:14.722	ID:7	[INFO: App       ] Current node rank: 0
+02:14.727	ID:7	[INFO: App       ] Tx/Rx/MissedTx: 10/0/0
+02:14.734	ID:7	[INFO: App       ] Sending request 10 to fd00::212:7406:6:606
+02:14.837	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 2
+02:14.841	ID:2	[INFO: App       ] Packet has reached final destination: 2
+02:14.845	ID:2	[INFO: App       ] Round trip time: 30 ticks
+02:14.847	ID:2	[INFO: App       ] Energy stats:
+02:14.851	ID:2	[INFO: App       ] CPU: 64 ticks
+02:14.855	ID:6	[INFO: UDP-Server] Received packet for ID 7fd00::212:7407:7:707
+02:14.856	ID:2	[INFO: App       ] LPM: 36 ticks
+02:14.864	ID:6	[INFO: UDP-Server] Forwarding to destination ID 7 via next hop: fd00::212:7407:7:707
+02:14.965	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 7
+02:14.969	ID:7	[INFO: App       ] Packet has reached final destination: 7
+02:14.973	ID:7	[INFO: App       ] Round trip time: 30 ticks
+02:14.975	ID:7	[INFO: App       ] Energy stats:
+02:14.980	ID:7	[INFO: App       ] CPU: 64 ticks
+02:14.984	ID:7	[INFO: App       ] LPM: 36 ticks
+02:15.507	ID:8	[INFO: App       ] Current node rank: 0
+02:15.515	ID:8	[INFO: App       ] Sending request 11 to fd00::212:7406:6:606
+02:15.542	ID:6	[INFO: UDP-Server] Received packet for ID 8fd00::212:7408:8:808
+02:15.550	ID:6	[INFO: UDP-Server] Forwarding to destination ID 8 via next hop: fd00::212:7403:3:303
+02:15.610	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 8
+02:15.621	ID:3	[INFO: App       ] Forwarding packet to next hop 8 [fd00::212:7408:8:808]
+02:15.660	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 8
+02:15.664	ID:8	[INFO: App       ] Packet has reached final destination: 8
+02:15.668	ID:8	[INFO: App       ] Round trip time: 19 ticks
+02:15.670	ID:8	[INFO: App       ] Energy stats:
+02:15.674	ID:8	[INFO: App       ] CPU: 42 ticks
+02:15.679	ID:8	[INFO: App       ] LPM: 22 ticks
+02:22.242	ID:5	[INFO: App       ] Current node rank: 0
+02:22.250	ID:5	[INFO: App       ] Sending request 12 to fd00::212:7406:6:606
+02:22.269	ID:6	[INFO: UDP-Server] Received packet for ID 5fd00::212:7405:5:505
+02:22.277	ID:6	[INFO: UDP-Server] Forwarding to destination ID 5 via next hop: fd00::212:7407:7:707
+02:22.356	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 5
+02:22.367	ID:7	[INFO: App       ] Forwarding packet to next hop 2 [fd00::212:7402:2:202]
+02:22.446	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 5
+02:22.457	ID:2	[INFO: App       ] Forwarding packet to next hop 5 [fd00::212:7405:5:505]
+02:22.563	ID:5	[INFO: App       ] Received packet of length 2 from fd00::212:7402:2:202 to fd00::212:7405:5:505[INFO: App       ] Received msg destined to ID: 5
+02:22.567	ID:5	[INFO: App       ] Packet has reached final destination: 5
+02:22.571	ID:5	[INFO: App       ] Round trip time: 41 ticks
+02:22.574	ID:5	[INFO: App       ] Energy stats:
+02:22.578	ID:5	[INFO: App       ] CPU: 86 ticks
+02:22.583	ID:5	[INFO: App       ] LPM: 49 ticks
+02:23.239	ID:3	[INFO: App       ] Current node rank: 0
+02:23.247	ID:3	[INFO: App       ] Sending request 12 to fd00::212:7406:6:606
+02:23.289	ID:6	[INFO: UDP-Server] Received packet for ID 3fd00::212:7403:3:303
+02:23.298	ID:6	[INFO: UDP-Server] Forwarding to destination ID 3 via next hop: fd00::212:7403:3:303
+02:23.344	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 3
+02:23.348	ID:3	[INFO: App       ] Packet has reached final destination: 3
+02:23.352	ID:3	[INFO: App       ] Round trip time: 13 ticks
+02:23.355	ID:3	[INFO: App       ] Energy stats:
+02:23.359	ID:3	[INFO: App       ] CPU: 30 ticks
+02:23.364	ID:3	[INFO: App       ] LPM: 15 ticks
 02:23.597	ID:1	[INFO: App       ] Current node rank: 0
-02:23.604	ID:1	[INFO: App       ] Sending request 11 to fd00::212:7406:6:606
-02:23.631	ID:5	[INFO: App       ] Received packet of length 2 from fd00::212:7402:2:202 to fd00::212:7405:5:505[INFO: App       ] Received msg destined to ID: 5
-02:23.635	ID:5	[INFO: App       ] Packet has reached final destination: 5
-02:23.639	ID:5	[INFO: App       ] Round trip time: 52 ticks
+02:23.605	ID:1	[INFO: App       ] Sending request 11 to fd00::212:7406:6:606
 02:23.704	ID:6	[INFO: UDP-Server] Received packet for ID 1fd00::212:7401:1:101
-02:23.713	ID:6	[INFO: UDP-Server] Forwarding to destination ID 1 via next hop: fd00::212:7403:3:303
+02:23.712	ID:6	[INFO: UDP-Server] Forwarding to destination ID 1 via next hop: fd00::212:7403:3:303
 02:23.747	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 1
 02:23.758	ID:3	[INFO: App       ] Forwarding packet to next hop 1 [fd00::212:7401:1:101]
-02:23.829	ID:3	[INFO: App       ] Current node rank: 0
-02:23.836	ID:3	[INFO: App       ] Sending request 12 to fd00::212:7406:6:606
-02:23.855	ID:6	[INFO: UDP-Server] Received packet for ID 3fd00::212:7403:3:303
-02:23.864	ID:6	[INFO: UDP-Server] Forwarding to destination ID 3 via next hop: fd00::212:7403:3:303
-02:23.899	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 3
-02:23.903	ID:3	[INFO: App       ] Packet has reached final destination: 3
-02:23.906	ID:3	[INFO: App       ] Round trip time: 8 ticks
-02:23.929	ID:1	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7401:1:101[INFO: App       ] Received msg destined to ID: 1
-02:23.933	ID:1	[INFO: App       ] Packet has reached final destination: 1
-02:23.937	ID:1	[INFO: App       ] Round trip time: 42 ticks
+02:23.883	ID:1	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7401:1:101[INFO: App       ] Received msg destined to ID: 1
+02:23.887	ID:1	[INFO: App       ] Packet has reached final destination: 1
+02:23.891	ID:1	[INFO: App       ] Round trip time: 36 ticks
+02:23.894	ID:1	[INFO: App       ] Energy stats:
+02:23.898	ID:1	[INFO: App       ] CPU: 76 ticks
+02:23.903	ID:1	[INFO: App       ] LPM: 43 ticks
 02:24.638	ID:2	[INFO: App       ] Current node rank: 0
 02:24.646	ID:2	[INFO: App       ] Sending request 12 to fd00::212:7406:6:606
 02:24.673	ID:6	[INFO: UDP-Server] Received packet for ID 2fd00::212:7402:2:202
 02:24.681	ID:6	[INFO: UDP-Server] Forwarding to destination ID 2 via next hop: fd00::212:7407:7:707
-02:24.770	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 2
-02:24.781	ID:7	[INFO: App       ] Forwarding packet to next hop 2 [fd00::212:7402:2:202]
-02:24.796	ID:8	[INFO: App       ] Current node rank: 0
-02:24.804	ID:8	[INFO: App       ] Sending request 12 to fd00::212:7406:6:606
-02:24.853	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 2
-02:24.857	ID:2	[INFO: App       ] Packet has reached final destination: 2
-02:24.860	ID:2	[INFO: App       ] Round trip time: 27 ticks
-02:24.956	ID:6	[INFO: UDP-Server] Received packet for ID 8fd00::212:7408:8:808
-02:24.964	ID:6	[INFO: UDP-Server] Forwarding to destination ID 8 via next hop: fd00::212:7403:3:303
-02:25.008	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 8
-02:25.019	ID:3	[INFO: App       ] Forwarding packet to next hop 8 [fd00::212:7408:8:808]
-02:25.079	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 8
-02:25.083	ID:8	[INFO: App       ] Packet has reached final destination: 8
-02:25.087	ID:8	[INFO: App       ] Round trip time: 36 ticks
+02:24.746	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 2
+02:24.758	ID:7	[INFO: App       ] Forwarding packet to next hop 2 [fd00::212:7402:2:202]
+02:24.868	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 2
+02:24.872	ID:2	[INFO: App       ] Packet has reached final destination: 2
+02:24.876	ID:2	[INFO: App       ] Round trip time: 29 ticks
+02:24.878	ID:2	[INFO: App       ] Energy stats:
+02:24.883	ID:2	[INFO: App       ] CPU: 62 ticks
+02:24.887	ID:2	[INFO: App       ] LPM: 34 ticks
+02:24.898	ID:8	[INFO: App       ] Current node rank: 0
+02:24.903	ID:7	[INFO: App       ] Current node rank: 0
+02:24.905	ID:8	[INFO: App       ] Sending request 12 to fd00::212:7406:6:606
+02:24.911	ID:7	[INFO: App       ] Sending request 11 to fd00::212:7406:6:606
+02:24.948	ID:6	[INFO: UDP-Server] Received packet for ID 8fd00::212:7408:8:808
+02:24.956	ID:6	[INFO: UDP-Server] Forwarding to destination ID 8 via next hop: fd00::212:7403:3:303
+02:25.004	ID:6	[INFO: UDP-Server] Received packet for ID 7fd00::212:7407:7:707
+02:25.012	ID:6	[INFO: UDP-Server] Forwarding to destination ID 7 via next hop: fd00::212:7407:7:707
+02:25.040	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 8
+02:25.052	ID:3	[INFO: App       ] Forwarding packet to next hop 8 [fd00::212:7408:8:808]
+02:25.082	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 7
+02:25.086	ID:7	[INFO: App       ] Packet has reached final destination: 7
+02:25.090	ID:7	[INFO: App       ] Round trip time: 22 ticks
+02:25.092	ID:7	[INFO: App       ] Energy stats:
+02:25.097	ID:7	[INFO: App       ] CPU: 48 ticks
+02:25.101	ID:7	[INFO: App       ] LPM: 26 ticks
 02:25.157	ID:4	[INFO: App       ] Current node rank: 0
 02:25.164	ID:4	[INFO: App       ] Sending request 12 to fd00::212:7406:6:606
+02:25.189	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 8
+02:25.193	ID:8	[INFO: App       ] Packet has reached final destination: 8
+02:25.196	ID:8	[INFO: App       ] Round trip time: 37 ticks
+02:25.199	ID:8	[INFO: App       ] Energy stats:
+02:25.203	ID:8	[INFO: App       ] CPU: 78 ticks
+02:25.208	ID:8	[INFO: App       ] LPM: 44 ticks
 02:25.223	ID:6	[INFO: UDP-Server] Received packet for ID 4fd00::212:7404:4:404
-02:25.231	ID:6	[INFO: UDP-Server] Forwarding to destination ID 4 via next hop: fd00::212:7403:3:303
-02:25.274	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 4
-02:25.285	ID:3	[INFO: App       ] Forwarding packet to next hop 8 [fd00::212:7408:8:808]
-02:25.318	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 4
-02:25.329	ID:8	[INFO: App       ] Forwarding packet to next hop 4 [fd00::212:7404:4:404]
-02:25.367	ID:4	[INFO: App       ] Received packet of length 2 from fd00::212:7408:8:808 to fd00::212:7404:4:404[INFO: App       ] Received msg destined to ID: 4
-02:25.371	ID:4	[INFO: App       ] Packet has reached final destination: 4
-02:25.375	ID:4	[INFO: App       ] Round trip time: 26 ticks
+02:25.232	ID:6	[INFO: UDP-Server] Forwarding to destination ID 4 via next hop: fd00::212:7403:3:303
+02:25.266	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 4
+02:25.277	ID:3	[INFO: App       ] Forwarding packet to next hop 8 [fd00::212:7408:8:808]
+02:25.345	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 4
+02:25.356	ID:8	[INFO: App       ] Forwarding packet to next hop 4 [fd00::212:7404:4:404]
+02:25.430	ID:4	[INFO: App       ] Received packet of length 2 from fd00::212:7408:8:808 to fd00::212:7404:4:404[INFO: App       ] Received msg destined to ID: 4
+02:25.434	ID:4	[INFO: App       ] Packet has reached final destination: 4
+02:25.438	ID:4	[INFO: App       ] Round trip time: 34 ticks
+02:25.440	ID:4	[INFO: App       ] Energy stats:
+02:25.445	ID:4	[INFO: App       ] CPU: 72 ticks
+02:25.449	ID:4	[INFO: App       ] LPM: 40 ticks
+02:32.211	ID:5	[INFO: App       ] Current node rank: 0
+02:32.219	ID:5	[INFO: App       ] Sending request 13 to fd00::212:7406:6:606
+02:32.238	ID:6	[INFO: UDP-Server] Received packet for ID 5fd00::212:7405:5:505
+02:32.246	ID:6	[INFO: UDP-Server] Forwarding to destination ID 5 via next hop: fd00::212:7407:7:707
+02:32.317	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 5
+02:32.328	ID:7	[INFO: App       ] Forwarding packet to next hop 2 [fd00::212:7402:2:202]
+02:32.415	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 5
+02:32.426	ID:2	[INFO: App       ] Forwarding packet to next hop 5 [fd00::212:7405:5:505]
+02:32.470	ID:5	[INFO: App       ] Received packet of length 2 from fd00::212:7402:2:202 to fd00::212:7405:5:505[INFO: App       ] Received msg destined to ID: 5
+02:32.474	ID:5	[INFO: App       ] Packet has reached final destination: 5
+02:32.478	ID:5	[INFO: App       ] Round trip time: 33 ticks
+02:32.480	ID:5	[INFO: App       ] Energy stats:
+02:32.484	ID:5	[INFO: App       ] CPU: 70 ticks
+02:32.489	ID:5	[INFO: App       ] LPM: 39 ticks
 02:33.433	ID:1	[INFO: App       ] Current node rank: 0
-02:33.440	ID:1	[INFO: App       ] Sending request 12 to fd00::212:7406:6:606
-02:33.497	ID:7	[INFO: App       ] Current node rank: 0
-02:33.504	ID:7	[INFO: App       ] Sending request 12 to fd00::212:7406:6:606
-02:33.547	ID:6	[INFO: UDP-Server] Received packet for ID 1fd00::212:7401:1:101
+02:33.441	ID:1	[INFO: App       ] Sending request 12 to fd00::212:7406:6:606
+02:33.548	ID:6	[INFO: UDP-Server] Received packet for ID 1fd00::212:7401:1:101
 02:33.556	ID:6	[INFO: UDP-Server] Forwarding to destination ID 1 via next hop: fd00::212:7403:3:303
-02:33.574	ID:6	[INFO: UDP-Server] Received packet for ID 7fd00::212:7407:7:707
-02:33.583	ID:6	[INFO: UDP-Server] Forwarding to destination ID 7 via next hop: fd00::212:7407:7:707
-02:33.611	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 1
-02:33.622	ID:3	[INFO: App       ] Forwarding packet to next hop 1 [fd00::212:7401:1:101]
-02:33.652	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 7
-02:33.657	ID:7	[INFO: App       ] Packet has reached final destination: 7
-02:33.660	ID:7	[INFO: App       ] Round trip time: 19 ticks
-02:33.789	ID:1	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7401:1:101[INFO: App       ] Received msg destined to ID: 1
-02:33.793	ID:1	[INFO: App       ] Packet has reached final destination: 1
-02:33.797	ID:1	[INFO: App       ] Round trip time: 45 ticks
-02:33.810	ID:3	[INFO: App       ] Current node rank: 0
-02:33.818	ID:3	[INFO: App       ] Sending request 13 to fd00::212:7406:6:606
-02:33.859	ID:6	[INFO: UDP-Server] Received packet for ID 3fd00::212:7403:3:303
-02:33.868	ID:6	[INFO: UDP-Server] Forwarding to destination ID 3 via next hop: fd00::212:7403:3:303
-02:33.907	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 3
-02:33.911	ID:3	[INFO: App       ] Packet has reached final destination: 3
-02:33.914	ID:3	[INFO: App       ] Round trip time: 12 ticks
-02:34.109	ID:5	[INFO: App       ] Current node rank: 0
-02:34.117	ID:5	[INFO: App       ] Sending request 13 to fd00::212:7406:6:606
-02:34.159	ID:6	[INFO: UDP-Server] Received packet for ID 5fd00::212:7405:5:505
-02:34.168	ID:6	[INFO: UDP-Server] Forwarding to destination ID 5 via next hop: fd00::212:7407:7:707
-02:34.223	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 5
-02:34.234	ID:7	[INFO: App       ] Forwarding packet to next hop 2 [fd00::212:7402:2:202]
-02:34.314	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 5
-02:34.325	ID:2	[INFO: App       ] Forwarding packet to next hop 5 [fd00::212:7405:5:505]
-02:34.376	ID:5	[INFO: App       ] Received packet of length 2 from fd00::212:7402:2:202 to fd00::212:7405:5:505[INFO: App       ] Received msg destined to ID: 5
-02:34.380	ID:5	[INFO: App       ] Packet has reached final destination: 5
-02:34.384	ID:5	[INFO: App       ] Round trip time: 34 ticks
-02:34.655	ID:8	[INFO: App       ] Current node rank: 0
-02:34.663	ID:8	[INFO: App       ] Sending request 13 to fd00::212:7406:6:606
-02:34.721	ID:6	[INFO: UDP-Server] Received packet for ID 8fd00::212:7408:8:808
-02:34.730	ID:6	[INFO: UDP-Server] Forwarding to destination ID 8 via next hop: fd00::212:7403:3:303
-02:34.774	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 8
-02:34.785	ID:3	[INFO: App       ] Forwarding packet to next hop 8 [fd00::212:7408:8:808]
-02:34.837	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 8
-02:34.841	ID:8	[INFO: App       ] Packet has reached final destination: 8
-02:34.845	ID:8	[INFO: App       ] Round trip time: 23 ticks
+02:33.591	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 1
+02:33.602	ID:3	[INFO: App       ] Forwarding packet to next hop 1 [fd00::212:7401:1:101]
+02:33.698	ID:3	[INFO: App       ] Current node rank: 0
+02:33.706	ID:3	[INFO: App       ] Sending request 13 to fd00::212:7406:6:606
+02:33.711	ID:1	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7401:1:101[INFO: App       ] Received msg destined to ID: 1
+02:33.715	ID:1	[INFO: App       ] Packet has reached final destination: 1
+02:33.719	ID:1	[INFO: App       ] Round trip time: 35 ticks
+02:33.722	ID:1	[INFO: App       ] Energy stats:
+02:33.726	ID:1	[INFO: App       ] CPU: 74 ticks
+02:33.731	ID:1	[INFO: App       ] LPM: 42 ticks
+02:33.758	ID:6	[INFO: UDP-Server] Received packet for ID 3fd00::212:7403:3:303
+02:33.767	ID:6	[INFO: UDP-Server] Forwarding to destination ID 3 via next hop: fd00::212:7403:3:303
+02:33.802	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 3
+02:33.806	ID:3	[INFO: App       ] Packet has reached final destination: 3
+02:33.810	ID:3	[INFO: App       ] Round trip time: 12 ticks
+02:33.812	ID:3	[INFO: App       ] Energy stats:
+02:33.817	ID:3	[INFO: App       ] CPU: 28 ticks
+02:33.821	ID:3	[INFO: App       ] LPM: 14 ticks
+02:34.757	ID:8	[INFO: App       ] Current node rank: 0
+02:34.765	ID:8	[INFO: App       ] Sending request 13 to fd00::212:7406:6:606
+02:34.792	ID:6	[INFO: UDP-Server] Received packet for ID 8fd00::212:7408:8:808
+02:34.800	ID:6	[INFO: UDP-Server] Forwarding to destination ID 8 via next hop: fd00::212:7403:3:303
+02:34.828	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 8
+02:34.839	ID:3	[INFO: App       ] Forwarding packet to next hop 8 [fd00::212:7408:8:808]
+02:34.848	ID:7	[INFO: App       ] Current node rank: 0
+02:34.856	ID:7	[INFO: App       ] Sending request 12 to fd00::212:7406:6:606
+02:34.899	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 8
+02:34.904	ID:8	[INFO: App       ] Packet has reached final destination: 8
+02:34.907	ID:8	[INFO: App       ] Round trip time: 18 ticks
+02:34.910	ID:8	[INFO: App       ] Energy stats:
+02:34.914	ID:8	[INFO: App       ] CPU: 40 ticks
+02:34.919	ID:8	[INFO: App       ] LPM: 21 ticks
+02:34.949	ID:6	[INFO: UDP-Server] Received packet for ID 7fd00::212:7407:7:707
+02:34.958	ID:6	[INFO: UDP-Server] Forwarding to destination ID 7 via next hop: fd00::212:7407:7:707
+02:35.027	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 7
+02:35.032	ID:7	[INFO: App       ] Packet has reached final destination: 7
+02:35.035	ID:7	[INFO: App       ] Round trip time: 22 ticks
+02:35.038	ID:7	[INFO: App       ] Energy stats:
+02:35.042	ID:7	[INFO: App       ] CPU: 48 ticks
+02:35.047	ID:7	[INFO: App       ] LPM: 26 ticks
 02:35.521	ID:2	[INFO: App       ] Current node rank: 0
 02:35.529	ID:2	[INFO: App       ] Sending request 13 to fd00::212:7406:6:606
 02:35.556	ID:6	[INFO: UDP-Server] Received packet for ID 2fd00::212:7402:2:202
 02:35.564	ID:6	[INFO: UDP-Server] Forwarding to destination ID 2 via next hop: fd00::212:7407:7:707
 02:35.579	ID:4	[INFO: App       ] Current node rank: 0
 02:35.586	ID:4	[INFO: App       ] Sending request 13 to fd00::212:7406:6:606
-02:35.606	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 2
-02:35.617	ID:7	[INFO: App       ] Forwarding packet to next hop 2 [fd00::212:7402:2:202]
-02:35.680	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 2
-02:35.685	ID:2	[INFO: App       ] Packet has reached final destination: 2
-02:35.688	ID:2	[INFO: App       ] Round trip time: 20 ticks
-02:35.715	ID:6	[INFO: UDP-Server] Received packet for ID 4fd00::212:7404:4:404
-02:35.724	ID:6	[INFO: UDP-Server] Forwarding to destination ID 4 via next hop: fd00::212:7403:3:303
-02:35.766	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 4
-02:35.777	ID:3	[INFO: App       ] Forwarding packet to next hop 8 [fd00::212:7408:8:808]
-02:35.860	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 4
-02:35.871	ID:8	[INFO: App       ] Forwarding packet to next hop 4 [fd00::212:7404:4:404]
-02:35.923	ID:4	[INFO: App       ] Received packet of length 2 from fd00::212:7408:8:808 to fd00::212:7404:4:404[INFO: App       ] Received msg destined to ID: 4
-02:35.927	ID:4	[INFO: App       ] Packet has reached final destination: 4
-02:35.931	ID:4	[INFO: App       ] Round trip time: 44 ticks
+02:35.606	ID:6	[INFO: UDP-Server] Received packet for ID 4fd00::212:7404:4:404
+02:35.614	ID:6	[INFO: UDP-Server] Forwarding to destination ID 4 via next hop: fd00::212:7403:3:303
+02:35.621	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 2
+02:35.633	ID:7	[INFO: App       ] Forwarding packet to next hop 2 [fd00::212:7402:2:202]
+02:35.649	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 4
+02:35.660	ID:3	[INFO: App       ] Forwarding packet to next hop 8 [fd00::212:7408:8:808]
+02:35.688	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 2
+02:35.692	ID:2	[INFO: App       ] Packet has reached final destination: 2
+02:35.696	ID:2	[INFO: App       ] Round trip time: 21 ticks
+02:35.698	ID:2	[INFO: App       ] Energy stats:
+02:35.703	ID:2	[INFO: App       ] CPU: 46 ticks
+02:35.708	ID:2	[INFO: App       ] LPM: 25 ticks
+02:35.805	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 4
+02:35.817	ID:8	[INFO: App       ] Forwarding packet to next hop 4 [fd00::212:7404:4:404]
+02:35.892	ID:4	[INFO: App       ] Received packet of length 2 from fd00::212:7408:8:808 to fd00::212:7404:4:404[INFO: App       ] Received msg destined to ID: 4
+02:35.896	ID:4	[INFO: App       ] Packet has reached final destination: 4
+02:35.899	ID:4	[INFO: App       ] Round trip time: 40 ticks
+02:35.902	ID:4	[INFO: App       ] Energy stats:
+02:35.906	ID:4	[INFO: App       ] CPU: 84 ticks
+02:35.911	ID:4	[INFO: App       ] LPM: 48 ticks
+02:41.836	ID:5	[INFO: App       ] Current node rank: 0
+02:41.844	ID:5	[INFO: App       ] Sending request 14 to fd00::212:7406:6:606
+02:41.862	ID:6	[INFO: UDP-Server] Received packet for ID 5fd00::212:7405:5:505
+02:41.871	ID:6	[INFO: UDP-Server] Forwarding to destination ID 5 via next hop: fd00::212:7407:7:707
+02:41.934	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 5
+02:41.945	ID:7	[INFO: App       ] Forwarding packet to next hop 2 [fd00::212:7402:2:202]
+02:42.040	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 5
+02:42.051	ID:2	[INFO: App       ] Forwarding packet to next hop 5 [fd00::212:7405:5:505]
+02:42.134	ID:5	[INFO: App       ] Received packet of length 2 from fd00::212:7402:2:202 to fd00::212:7405:5:505[INFO: App       ] Received msg destined to ID: 5
+02:42.138	ID:5	[INFO: App       ] Packet has reached final destination: 5
+02:42.142	ID:5	[INFO: App       ] Round trip time: 38 ticks
+02:42.144	ID:5	[INFO: App       ] Energy stats:
+02:42.148	ID:5	[INFO: App       ] CPU: 80 ticks
+02:42.153	ID:5	[INFO: App       ] LPM: 45 ticks
 02:42.667	ID:1	[INFO: App       ] Current node rank: 0
 02:42.675	ID:1	[INFO: App       ] Sending request 13 to fd00::212:7406:6:606
-02:42.728	ID:6	[INFO: UDP-Server] Received packet for ID 1fd00::212:7401:1:101
-02:42.736	ID:6	[INFO: UDP-Server] Forwarding to destination ID 1 via next hop: fd00::212:7403:3:303
-02:42.782	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 1
-02:42.793	ID:3	[INFO: App       ] Forwarding packet to next hop 1 [fd00::212:7401:1:101]
+02:42.759	ID:6	[INFO: UDP-Server] Received packet for ID 1fd00::212:7401:1:101
+02:42.767	ID:6	[INFO: UDP-Server] Forwarding to destination ID 1 via next hop: fd00::212:7403:3:303
+02:42.813	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 1
+02:42.824	ID:3	[INFO: App       ] Forwarding packet to next hop 1 [fd00::212:7401:1:101]
 02:42.938	ID:1	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7401:1:101[INFO: App       ] Received msg destined to ID: 1
 02:42.942	ID:1	[INFO: App       ] Packet has reached final destination: 1
-02:42.945	ID:1	[INFO: App       ] Round trip time: 34 ticks
-02:44.293	ID:7	[INFO: App       ] Current node rank: 0
-02:44.301	ID:7	[INFO: App       ] Sending request 13 to fd00::212:7406:6:606
-02:44.387	ID:6	[INFO: UDP-Server] Received packet for ID 7fd00::212:7407:7:707
-02:44.395	ID:6	[INFO: UDP-Server] Forwarding to destination ID 7 via next hop: fd00::212:7407:7:707
-02:44.473	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 7
-02:44.477	ID:7	[INFO: App       ] Packet has reached final destination: 7
-02:44.480	ID:7	[INFO: App       ] Round trip time: 22 ticks
-02:44.484	ID:8	[INFO: App       ] Current node rank: 0
-02:44.491	ID:8	[INFO: App       ] Sending request 14 to fd00::212:7406:6:606
-02:44.549	ID:6	[INFO: UDP-Server] Received packet for ID 8fd00::212:7408:8:808
-02:44.558	ID:6	[INFO: UDP-Server] Forwarding to destination ID 8 via next hop: fd00::212:7403:3:303
-02:44.570	ID:5	[INFO: App       ] Current node rank: 0
-02:44.578	ID:5	[INFO: App       ] Sending request 14 to fd00::212:7406:6:606
-02:44.585	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 8
-02:44.596	ID:3	[INFO: App       ] Forwarding packet to next hop 8 [fd00::212:7408:8:808]
-02:44.628	ID:6	[INFO: UDP-Server] Received packet for ID 5fd00::212:7405:5:505
-02:44.637	ID:6	[INFO: UDP-Server] Forwarding to destination ID 5 via next hop: fd00::212:7407:7:707
-02:44.688	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 8
-02:44.692	ID:8	[INFO: App       ] Packet has reached final destination: 8
-02:44.696	ID:8	[INFO: App       ] Round trip time: 26 ticks
-02:44.723	ID:3	[INFO: App       ] Current node rank: 0
-02:44.731	ID:3	[INFO: App       ] Sending request 14 to fd00::212:7406:6:606
-02:44.762	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 5
-02:44.773	ID:6	[INFO: UDP-Server] Received packet for ID 3fd00::212:7403:3:303
-02:44.774	ID:7	[INFO: App       ] Forwarding packet to next hop 2 [fd00::212:7402:2:202]
-02:44.782	ID:6	[INFO: UDP-Server] Forwarding to destination ID 3 via next hop: fd00::212:7403:3:303
-02:44.852	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 3
-02:44.856	ID:3	[INFO: App       ] Packet has reached final destination: 3
-02:44.860	ID:3	[INFO: App       ] Round trip time: 16 ticks
-02:44.962	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 5
-02:44.973	ID:2	[INFO: App       ] Forwarding packet to next hop 5 [fd00::212:7405:5:505]
-02:45.048	ID:5	[INFO: App       ] Received packet of length 2 from fd00::212:7402:2:202 to fd00::212:7405:5:505[INFO: App       ] Received msg destined to ID: 5
-02:45.052	ID:5	[INFO: App       ] Packet has reached final destination: 5
-02:45.055	ID:5	[INFO: App       ] Round trip time: 61 ticks
+02:42.946	ID:1	[INFO: App       ] Round trip time: 34 ticks
+02:42.948	ID:1	[INFO: App       ] Energy stats:
+02:42.952	ID:1	[INFO: App       ] CPU: 72 ticks
+02:42.957	ID:1	[INFO: App       ] LPM: 40 ticks
+02:43.879	ID:7	[INFO: App       ] Current node rank: 0
+02:43.887	ID:7	[INFO: App       ] Sending request 13 to fd00::212:7406:6:606
+02:43.948	ID:6	[INFO: UDP-Server] Received packet for ID 7fd00::212:7407:7:707
+02:43.956	ID:6	[INFO: UDP-Server] Forwarding to destination ID 7 via next hop: fd00::212:7407:7:707
+02:44.004	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 7
+02:44.008	ID:7	[INFO: App       ] Packet has reached final destination: 7
+02:44.012	ID:7	[INFO: App       ] Round trip time: 15 ticks
+02:44.014	ID:7	[INFO: App       ] Energy stats:
+02:44.019	ID:7	[INFO: App       ] CPU: 34 ticks
+02:44.023	ID:7	[INFO: App       ] LPM: 18 ticks
+02:44.083	ID:3	[INFO: App       ] Current node rank: 0
+02:44.090	ID:3	[INFO: App       ] Sending request 14 to fd00::212:7406:6:606
+02:44.117	ID:6	[INFO: UDP-Server] Received packet for ID 3fd00::212:7403:3:303
+02:44.126	ID:6	[INFO: UDP-Server] Forwarding to destination ID 3 via next hop: fd00::212:7403:3:303
+02:44.196	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 3
+02:44.200	ID:3	[INFO: App       ] Packet has reached final destination: 3
+02:44.204	ID:3	[INFO: App       ] Round trip time: 14 ticks
+02:44.206	ID:3	[INFO: App       ] Energy stats:
+02:44.210	ID:3	[INFO: App       ] CPU: 32 ticks
+02:44.215	ID:3	[INFO: App       ] LPM: 16 ticks
+02:45.640	ID:8	[INFO: App       ] Current node rank: 0
 02:45.646	ID:2	[INFO: App       ] Current node rank: 0
+02:45.648	ID:8	[INFO: App       ] Sending request 14 to fd00::212:7406:6:606
 02:45.654	ID:2	[INFO: App       ] Sending request 14 to fd00::212:7406:6:606
-02:45.688	ID:6	[INFO: UDP-Server] Received packet for ID 2fd00::212:7402:2:202
-02:45.697	ID:6	[INFO: UDP-Server] Forwarding to destination ID 2 via next hop: fd00::212:7407:7:707
-02:45.770	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 2
-02:45.781	ID:7	[INFO: App       ] Forwarding packet to next hop 2 [fd00::212:7402:2:202]
-02:45.899	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 2
-02:45.904	ID:2	[INFO: App       ] Packet has reached final destination: 2
-02:45.907	ID:2	[INFO: App       ] Round trip time: 32 ticks
+02:45.674	ID:6	[INFO: UDP-Server] Received packet for ID 8fd00::212:7408:8:808
+02:45.683	ID:6	[INFO: UDP-Server] Forwarding to destination ID 8 via next hop: fd00::212:7403:3:303
+02:45.700	ID:6	[INFO: UDP-Server] Received packet for ID 2fd00::212:7402:2:202
+02:45.708	ID:6	[INFO: UDP-Server] Forwarding to destination ID 2 via next hop: fd00::212:7407:7:707
+02:45.736	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 8
+02:45.747	ID:3	[INFO: App       ] Forwarding packet to next hop 8 [fd00::212:7408:8:808]
+02:45.790	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 8
+02:45.794	ID:8	[INFO: App       ] Packet has reached final destination: 8
+02:45.798	ID:8	[INFO: App       ] Round trip time: 19 ticks
+02:45.800	ID:8	[INFO: App       ] Energy stats:
+02:45.805	ID:8	[INFO: App       ] CPU: 42 ticks
+02:45.809	ID:8	[INFO: App       ] LPM: 22 ticks
+02:45.824	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 2
+02:45.836	ID:7	[INFO: App       ] Forwarding packet to next hop 2 [fd00::212:7402:2:202]
+02:45.946	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 2
+02:45.950	ID:2	[INFO: App       ] Packet has reached final destination: 2
+02:45.954	ID:2	[INFO: App       ] Round trip time: 38 ticks
+02:45.956	ID:2	[INFO: App       ] Energy stats:
+02:45.961	ID:2	[INFO: App       ] CPU: 80 ticks
+02:45.965	ID:2	[INFO: App       ] LPM: 45 ticks
 02:46.047	ID:4	[INFO: App       ] Current node rank: 0
 02:46.055	ID:4	[INFO: App       ] Sending request 14 to fd00::212:7406:6:606
 02:46.082	ID:6	[INFO: UDP-Server] Received packet for ID 4fd00::212:7404:4:404
 02:46.091	ID:6	[INFO: UDP-Server] Forwarding to destination ID 4 via next hop: fd00::212:7403:3:303
 02:46.157	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 4
 02:46.168	ID:3	[INFO: App       ] Forwarding packet to next hop 8 [fd00::212:7408:8:808]
-02:46.220	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 4
-02:46.231	ID:8	[INFO: App       ] Forwarding packet to next hop 4 [fd00::212:7404:4:404]
-02:46.298	ID:4	[INFO: App       ] Received packet of length 2 from fd00::212:7408:8:808 to fd00::212:7404:4:404[INFO: App       ] Received msg destined to ID: 4
-02:46.302	ID:4	[INFO: App       ] Packet has reached final destination: 4
-02:46.305	ID:4	[INFO: App       ] Round trip time: 32 ticks
+02:46.204	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 4
+02:46.215	ID:8	[INFO: App       ] Forwarding packet to next hop 4 [fd00::212:7404:4:404]
+02:46.290	ID:4	[INFO: App       ] Received packet of length 2 from fd00::212:7408:8:808 to fd00::212:7404:4:404[INFO: App       ] Received msg destined to ID: 4
+02:46.294	ID:4	[INFO: App       ] Packet has reached final destination: 4
+02:46.298	ID:4	[INFO: App       ] Round trip time: 30 ticks
+02:46.300	ID:4	[INFO: App       ] Energy stats:
+02:46.305	ID:4	[INFO: App       ] CPU: 64 ticks
+02:46.309	ID:4	[INFO: App       ] LPM: 36 ticks
+02:51.399	ID:5	[INFO: App       ] Current node rank: 0
+02:51.406	ID:5	[INFO: App       ] Sending request 15 to fd00::212:7406:6:606
+02:51.425	ID:6	[INFO: UDP-Server] Received packet for ID 5fd00::212:7405:5:505
+02:51.434	ID:6	[INFO: UDP-Server] Forwarding to destination ID 5 via next hop: fd00::212:7407:7:707
+02:51.481	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 5
+02:51.492	ID:7	[INFO: App       ] Forwarding packet to next hop 2 [fd00::212:7402:2:202]
+02:51.587	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 5
+02:51.598	ID:2	[INFO: App       ] Forwarding packet to next hop 5 [fd00::212:7405:5:505]
+02:51.661	ID:5	[INFO: App       ] Received packet of length 2 from fd00::212:7402:2:202 to fd00::212:7405:5:505[INFO: App       ] Received msg destined to ID: 5
+02:51.665	ID:5	[INFO: App       ] Packet has reached final destination: 5
+02:51.669	ID:5	[INFO: App       ] Round trip time: 33 ticks
+02:51.672	ID:5	[INFO: App       ] Energy stats:
+02:51.676	ID:5	[INFO: App       ] CPU: 70 ticks
+02:51.681	ID:5	[INFO: App       ] LPM: 39 ticks
 02:53.230	ID:1	[INFO: App       ] Current node rank: 0
 02:53.237	ID:1	[INFO: App       ] Sending request 14 to fd00::212:7406:6:606
-02:53.275	ID:6	[INFO: UDP-Server] Received packet for ID 1fd00::212:7401:1:101
-02:53.283	ID:6	[INFO: UDP-Server] Forwarding to destination ID 1 via next hop: fd00::212:7403:3:303
-02:53.318	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 1
-02:53.329	ID:3	[INFO: App       ] Forwarding packet to next hop 1 [fd00::212:7401:1:101]
-02:53.438	ID:1	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7401:1:101[INFO: App       ] Received msg destined to ID: 1
-02:53.442	ID:1	[INFO: App       ] Packet has reached final destination: 1
-02:53.445	ID:1	[INFO: App       ] Round trip time: 26 ticks
-02:53.710	ID:8	[INFO: App       ] Current node rank: 0
-02:53.718	ID:8	[INFO: App       ] Sending request 15 to fd00::212:7406:6:606
-02:53.719	ID:5	[INFO: App       ] Current node rank: 0
-02:53.726	ID:5	[INFO: App       ] Sending request 15 to fd00::212:7406:6:606
-02:53.744	ID:6	[INFO: UDP-Server] Received packet for ID 8fd00::212:7408:8:808
-02:53.753	ID:6	[INFO: UDP-Server] Forwarding to destination ID 8 via next hop: fd00::212:7403:3:303
-02:53.770	ID:6	[INFO: UDP-Server] Received packet for ID 5fd00::212:7405:5:505
-02:53.778	ID:6	[INFO: UDP-Server] Forwarding to destination ID 5 via next hop: fd00::212:7407:7:707
-02:53.806	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 8
-02:53.817	ID:3	[INFO: App       ] Forwarding packet to next hop 8 [fd00::212:7408:8:808]
-02:53.871	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 5
-02:53.876	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 8
-02:53.880	ID:8	[INFO: App       ] Packet has reached final destination: 8
-02:53.883	ID:7	[INFO: App       ] Forwarding packet to next hop 2 [fd00::212:7402:2:202]
-02:53.884	ID:8	[INFO: App       ] Round trip time: 21 ticks
-02:53.938	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 5
-02:53.950	ID:2	[INFO: App       ] Forwarding packet to next hop 5 [fd00::212:7405:5:505]
-02:54.013	ID:5	[INFO: App       ] Received packet of length 2 from fd00::212:7402:2:202 to fd00::212:7405:5:505[INFO: App       ] Received msg destined to ID: 5
-02:54.017	ID:5	[INFO: App       ] Packet has reached final destination: 5
-02:54.021	ID:5	[INFO: App       ] Round trip time: 37 ticks
-02:54.278	ID:7	[INFO: App       ] Current node rank: 0
-02:54.285	ID:7	[INFO: App       ] Sending request 14 to fd00::212:7406:6:606
-02:54.355	ID:6	[INFO: UDP-Server] Received packet for ID 7fd00::212:7407:7:707
-02:54.364	ID:6	[INFO: UDP-Server] Forwarding to destination ID 7 via next hop: fd00::212:7407:7:707
-02:54.449	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 7
-02:54.453	ID:7	[INFO: App       ] Packet has reached final destination: 7
-02:54.457	ID:7	[INFO: App       ] Round trip time: 21 ticks
-02:54.567	ID:3	[INFO: App       ] Current node rank: 0
-02:54.575	ID:3	[INFO: App       ] Sending request 15 to fd00::212:7406:6:606
-02:54.625	ID:6	[INFO: UDP-Server] Received packet for ID 3fd00::212:7403:3:303
-02:54.634	ID:6	[INFO: UDP-Server] Forwarding to destination ID 3 via next hop: fd00::212:7403:3:303
-02:54.703	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 3
-02:54.708	ID:3	[INFO: App       ] Packet has reached final destination: 3
-02:54.711	ID:3	[INFO: App       ] Round trip time: 17 ticks
-02:55.227	ID:4	[INFO: App       ] Current node rank: 0
-02:55.235	ID:4	[INFO: App       ] Sending request 15 to fd00::212:7406:6:606
-02:55.254	ID:6	[INFO: UDP-Server] Received packet for ID 4fd00::212:7404:4:404
-02:55.263	ID:6	[INFO: UDP-Server] Forwarding to destination ID 4 via next hop: fd00::212:7403:3:303
-02:55.328	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 4
-02:55.340	ID:3	[INFO: App       ] Forwarding packet to next hop 8 [fd00::212:7408:8:808]
-02:55.373	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 4
-02:55.384	ID:8	[INFO: App       ] Forwarding packet to next hop 4 [fd00::212:7404:4:404]
-02:55.454	ID:4	[INFO: App       ] Received packet of length 2 from fd00::212:7408:8:808 to fd00::212:7404:4:404[INFO: App       ] Received msg destined to ID: 4
-02:55.458	ID:4	[INFO: App       ] Packet has reached final destination: 4
-02:55.462	ID:4	[INFO: App       ] Round trip time: 29 ticks
+02:53.321	ID:6	[INFO: UDP-Server] Received packet for ID 1fd00::212:7401:1:101
+02:53.330	ID:6	[INFO: UDP-Server] Forwarding to destination ID 1 via next hop: fd00::212:7403:3:303
+02:53.375	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 1
+02:53.386	ID:3	[INFO: App       ] Forwarding packet to next hop 1 [fd00::212:7401:1:101]
+02:53.500	ID:1	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7401:1:101[INFO: App       ] Received msg destined to ID: 1
+02:53.504	ID:1	[INFO: App       ] Packet has reached final destination: 1
+02:53.508	ID:1	[INFO: App       ] Round trip time: 34 ticks
+02:53.510	ID:1	[INFO: App       ] Energy stats:
+02:53.515	ID:1	[INFO: App       ] CPU: 72 ticks
+02:53.519	ID:1	[INFO: App       ] LPM: 40 ticks
+02:53.598	ID:7	[INFO: App       ] Current node rank: 0
+02:53.606	ID:7	[INFO: App       ] Sending request 14 to fd00::212:7406:6:606
+02:53.668	ID:6	[INFO: UDP-Server] Received packet for ID 7fd00::212:7407:7:707
+02:53.677	ID:6	[INFO: UDP-Server] Forwarding to destination ID 7 via next hop: fd00::212:7407:7:707
+02:53.762	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 7
+02:53.766	ID:7	[INFO: App       ] Packet has reached final destination: 7
+02:53.770	ID:7	[INFO: App       ] Round trip time: 20 ticks
+02:53.772	ID:7	[INFO: App       ] Energy stats:
+02:53.777	ID:7	[INFO: App       ] CPU: 44 ticks
+02:53.781	ID:7	[INFO: App       ] LPM: 24 ticks
+02:54.653	ID:3	[INFO: App       ] Current node rank: 0
+02:54.661	ID:3	[INFO: App       ] Sending request 15 to fd00::212:7406:6:606
+02:54.679	ID:6	[INFO: UDP-Server] Received packet for ID 3fd00::212:7403:3:303
+02:54.688	ID:6	[INFO: UDP-Server] Forwarding to destination ID 3 via next hop: fd00::212:7403:3:303
+02:54.727	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 3
+02:54.731	ID:3	[INFO: App       ] Packet has reached final destination: 3
+02:54.734	ID:3	[INFO: App       ] Round trip time: 9 ticks
+02:54.737	ID:3	[INFO: App       ] Energy stats:
+02:54.741	ID:3	[INFO: App       ] CPU: 22 ticks
+02:54.746	ID:3	[INFO: App       ] LPM: 10 ticks
+02:55.438	ID:4	[INFO: App       ] Current node rank: 0
+02:55.446	ID:4	[INFO: App       ] Sending request 15 to fd00::212:7406:6:606
+02:55.496	ID:6	[INFO: UDP-Server] Received packet for ID 4fd00::212:7404:4:404
+02:55.505	ID:6	[INFO: UDP-Server] Forwarding to destination ID 4 via next hop: fd00::212:7403:3:303
+02:55.539	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 4
+02:55.550	ID:3	[INFO: App       ] Forwarding packet to next hop 8 [fd00::212:7408:8:808]
+02:55.613	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 4
+02:55.624	ID:8	[INFO: App       ] Forwarding packet to next hop 4 [fd00::212:7404:4:404]
+02:55.704	ID:4	[INFO: App       ] Received packet of length 2 from fd00::212:7408:8:808 to fd00::212:7404:4:404[INFO: App       ] Received msg destined to ID: 4
+02:55.708	ID:4	[INFO: App       ] Packet has reached final destination: 4
+02:55.712	ID:4	[INFO: App       ] Round trip time: 33 ticks
+02:55.714	ID:4	[INFO: App       ] Energy stats:
+02:55.719	ID:4	[INFO: App       ] CPU: 70 ticks
+02:55.723	ID:4	[INFO: App       ] LPM: 39 ticks
+02:55.765	ID:8	[INFO: App       ] Current node rank: 0
+02:55.773	ID:8	[INFO: App       ] Sending request 15 to fd00::212:7406:6:606
+02:55.799	ID:6	[INFO: UDP-Server] Received packet for ID 8fd00::212:7408:8:808
+02:55.808	ID:6	[INFO: UDP-Server] Forwarding to destination ID 8 via next hop: fd00::212:7403:3:303
+02:55.875	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 8
+02:55.886	ID:3	[INFO: App       ] Forwarding packet to next hop 8 [fd00::212:7408:8:808]
+02:55.970	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 8
+02:55.974	ID:8	[INFO: App       ] Packet has reached final destination: 8
+02:55.977	ID:8	[INFO: App       ] Round trip time: 26 ticks
+02:55.980	ID:8	[INFO: App       ] Energy stats:
+02:55.984	ID:8	[INFO: App       ] CPU: 56 ticks
+02:55.989	ID:8	[INFO: App       ] LPM: 31 ticks
 02:56.607	ID:2	[INFO: App       ] Current node rank: 0
 02:56.615	ID:2	[INFO: App       ] Sending request 15 to fd00::212:7406:6:606
 02:56.634	ID:6	[INFO: UDP-Server] Received packet for ID 2fd00::212:7402:2:202
 02:56.643	ID:6	[INFO: UDP-Server] Forwarding to destination ID 2 via next hop: fd00::212:7407:7:707
-02:56.738	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 2
-02:56.750	ID:7	[INFO: App       ] Forwarding packet to next hop 2 [fd00::212:7402:2:202]
-02:56.798	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 2
-02:56.802	ID:2	[INFO: App       ] Packet has reached final destination: 2
-02:56.806	ID:2	[INFO: App       ] Round trip time: 24 ticks
-03:03.391	ID:5	[INFO: App       ] Current node rank: 0
-03:03.398	ID:5	[INFO: App       ] Sending request 16 to fd00::212:7406:6:606
-03:03.425	ID:6	[INFO: UDP-Server] Received packet for ID 5fd00::212:7405:5:505
-03:03.433	ID:6	[INFO: UDP-Server] Forwarding to destination ID 5 via next hop: fd00::212:7407:7:707
-03:03.527	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 5
-03:03.539	ID:7	[INFO: App       ] Forwarding packet to next hop 2 [fd00::212:7402:2:202]
-03:03.634	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 5
-03:03.645	ID:2	[INFO: App       ] Forwarding packet to next hop 5 [fd00::212:7405:5:505]
+02:56.684	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 2
+02:56.695	ID:7	[INFO: App       ] Forwarding packet to next hop 2 [fd00::212:7402:2:202]
+02:56.759	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 2
+02:56.763	ID:2	[INFO: App       ] Packet has reached final destination: 2
+02:56.767	ID:2	[INFO: App       ] Round trip time: 19 ticks
+02:56.769	ID:2	[INFO: App       ] Energy stats:
+02:56.773	ID:2	[INFO: App       ] CPU: 42 ticks
+02:56.778	ID:2	[INFO: App       ] LPM: 22 ticks
+03:00.899	ID:5	[INFO: App       ] Current node rank: 0
+03:00.906	ID:5	[INFO: App       ] Sending request 16 to fd00::212:7406:6:606
+03:00.933	ID:6	[INFO: UDP-Server] Received packet for ID 5fd00::212:7405:5:505
+03:00.941	ID:6	[INFO: UDP-Server] Forwarding to destination ID 5 via next hop: fd00::212:7407:7:707
+03:00.988	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 5
+03:01.000	ID:7	[INFO: App       ] Forwarding packet to next hop 2 [fd00::212:7402:2:202]
+03:01.087	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 5
+03:01.098	ID:2	[INFO: App       ] Forwarding packet to next hop 5 [fd00::212:7405:5:505]
+03:01.165	ID:5	[INFO: App       ] Received packet of length 2 from fd00::212:7402:2:202 to fd00::212:7405:5:505[INFO: App       ] Received msg destined to ID: 5
+03:01.169	ID:5	[INFO: App       ] Packet has reached final destination: 5
+03:01.173	ID:5	[INFO: App       ] Round trip time: 34 ticks
+03:01.175	ID:5	[INFO: App       ] Energy stats:
+03:01.180	ID:5	[INFO: App       ] CPU: 72 ticks
+03:01.184	ID:5	[INFO: App       ] LPM: 40 ticks
+03:02.911	ID:7	[INFO: App       ] Current node rank: 0
+03:02.918	ID:7	[INFO: App       ] Sending request 15 to fd00::212:7406:6:606
+03:03.004	ID:6	[INFO: UDP-Server] Received packet for ID 7fd00::212:7407:7:707
+03:03.012	ID:6	[INFO: UDP-Server] Forwarding to destination ID 7 via next hop: fd00::212:7407:7:707
+03:03.106	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 7
+03:03.110	ID:7	[INFO: App       ] Packet has reached final destination: 7
+03:03.114	ID:7	[INFO: App       ] Round trip time: 24 ticks
+03:03.116	ID:7	[INFO: App       ] Energy stats:
+03:03.120	ID:7	[INFO: App       ] CPU: 52 ticks
+03:03.125	ID:7	[INFO: App       ] LPM: 28 ticks
 03:03.652	ID:1	[INFO: App       ] Current node rank: 0
 03:03.659	ID:1	[INFO: App       ] Sending request 15 to fd00::212:7406:6:606
-03:03.679	ID:5	[INFO: App       ] Received packet of length 2 from fd00::212:7402:2:202 to fd00::212:7405:5:505[INFO: App       ] Received msg destined to ID: 5
-03:03.683	ID:5	[INFO: App       ] Packet has reached final destination: 5
-03:03.687	ID:5	[INFO: App       ] Round trip time: 36 ticks
-03:03.716	ID:3	[INFO: App       ] Current node rank: 0
-03:03.723	ID:3	[INFO: App       ] Sending request 16 to fd00::212:7406:6:606
-03:03.742	ID:6	[INFO: UDP-Server] Received packet for ID 1fd00::212:7401:1:101
-03:03.751	ID:6	[INFO: UDP-Server] Forwarding to destination ID 1 via next hop: fd00::212:7403:3:303
-03:03.782	ID:6	[INFO: UDP-Server] Received packet for ID 3fd00::212:7403:3:303
-03:03.790	ID:6	[INFO: UDP-Server] Forwarding to destination ID 3 via next hop: fd00::212:7403:3:303
-03:03.826	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 1
-03:03.837	ID:3	[INFO: App       ] Forwarding packet to next hop 1 [fd00::212:7401:1:101]
-03:03.855	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 3
-03:03.859	ID:3	[INFO: App       ] Packet has reached final destination: 3
-03:03.863	ID:3	[INFO: App       ] Round trip time: 17 ticks
-03:03.945	ID:1	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7401:1:101[INFO: App       ] Received msg destined to ID: 1
-03:03.950	ID:1	[INFO: App       ] Packet has reached final destination: 1
-03:03.953	ID:1	[INFO: App       ] Round trip time: 37 ticks
-03:04.054	ID:8	[INFO: App       ] Current node rank: 0
-03:04.062	ID:8	[INFO: App       ] Sending request 16 to fd00::212:7406:6:606
-03:04.096	ID:6	[INFO: UDP-Server] Received packet for ID 8fd00::212:7408:8:808
-03:04.105	ID:6	[INFO: UDP-Server] Forwarding to destination ID 8 via next hop: fd00::212:7403:3:303
-03:04.133	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 8
-03:04.144	ID:3	[INFO: App       ] Forwarding packet to next hop 8 [fd00::212:7408:8:808]
-03:04.181	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 8
-03:04.185	ID:8	[INFO: App       ] Packet has reached final destination: 8
-03:04.188	ID:8	[INFO: App       ] Round trip time: 16 ticks
-03:04.301	ID:7	[INFO: App       ] Current node rank: 0
-03:04.309	ID:7	[INFO: App       ] Sending request 15 to fd00::212:7406:6:606
-03:04.355	ID:6	[INFO: UDP-Server] Received packet for ID 7fd00::212:7407:7:707
-03:04.364	ID:6	[INFO: UDP-Server] Forwarding to destination ID 7 via next hop: fd00::212:7407:7:707
-03:04.465	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 7
-03:04.469	ID:7	[INFO: App       ] Packet has reached final destination: 7
-03:04.473	ID:7	[INFO: App       ] Round trip time: 20 ticks
-03:05.266	ID:4	[INFO: App       ] Current node rank: 0
-03:05.274	ID:4	[INFO: App       ] Sending request 16 to fd00::212:7406:6:606
-03:05.332	ID:6	[INFO: UDP-Server] Received packet for ID 4fd00::212:7404:4:404
-03:05.341	ID:6	[INFO: UDP-Server] Forwarding to destination ID 4 via next hop: fd00::212:7403:3:303
-03:05.407	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 4
-03:05.418	ID:3	[INFO: App       ] Forwarding packet to next hop 8 [fd00::212:7408:8:808]
-03:05.493	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 4
-03:05.504	ID:8	[INFO: App       ] Forwarding packet to next hop 4 [fd00::212:7404:4:404]
-03:05.539	ID:4	[INFO: App       ] Received packet of length 2 from fd00::212:7408:8:808 to fd00::212:7404:4:404[INFO: App       ] Received msg destined to ID: 4
-03:05.543	ID:4	[INFO: App       ] Packet has reached final destination: 4
-03:05.547	ID:4	[INFO: App       ] Round trip time: 34 ticks
+03:03.690	ID:6	[INFO: UDP-Server] Received packet for ID 1fd00::212:7401:1:101
+03:03.698	ID:6	[INFO: UDP-Server] Forwarding to destination ID 1 via next hop: fd00::212:7403:3:303
+03:03.733	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 1
+03:03.744	ID:3	[INFO: App       ] Forwarding packet to next hop 1 [fd00::212:7401:1:101]
+03:03.855	ID:1	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7401:1:101[INFO: App       ] Received msg destined to ID: 1
+03:03.860	ID:1	[INFO: App       ] Packet has reached final destination: 1
+03:03.863	ID:1	[INFO: App       ] Round trip time: 26 ticks
+03:03.866	ID:1	[INFO: App       ] Energy stats:
+03:03.870	ID:1	[INFO: App       ] CPU: 56 ticks
+03:03.875	ID:1	[INFO: App       ] LPM: 31 ticks
+03:05.434	ID:3	[INFO: App       ] Current node rank: 0
+03:05.442	ID:3	[INFO: App       ] Sending request 16 to fd00::212:7406:6:606
+03:05.469	ID:6	[INFO: UDP-Server] Received packet for ID 3fd00::212:7403:3:303
+03:05.477	ID:6	[INFO: UDP-Server] Forwarding to destination ID 3 via next hop: fd00::212:7403:3:303
+03:05.516	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 3
+03:05.520	ID:3	[INFO: App       ] Packet has reached final destination: 3
+03:05.524	ID:3	[INFO: App       ] Round trip time: 10 ticks
+03:05.526	ID:3	[INFO: App       ] Energy stats:
+03:05.531	ID:3	[INFO: App       ] CPU: 24 ticks
+03:05.535	ID:3	[INFO: App       ] LPM: 12 ticks
+03:05.626	ID:4	[INFO: App       ] Current node rank: 0
+03:05.633	ID:4	[INFO: App       ] Sending request 16 to fd00::212:7406:6:606
+03:05.676	ID:6	[INFO: UDP-Server] Received packet for ID 4fd00::212:7404:4:404
+03:05.685	ID:6	[INFO: UDP-Server] Forwarding to destination ID 4 via next hop: fd00::212:7403:3:303
+03:05.727	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 4
+03:05.738	ID:3	[INFO: App       ] Forwarding packet to next hop 8 [fd00::212:7408:8:808]
+03:05.782	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 4
+03:05.793	ID:8	[INFO: App       ] Forwarding packet to next hop 4 [fd00::212:7404:4:404]
+03:05.860	ID:4	[INFO: App       ] Received packet of length 2 from fd00::212:7408:8:808 to fd00::212:7404:4:404[INFO: App       ] Received msg destined to ID: 4
+03:05.864	ID:4	[INFO: App       ] Packet has reached final destination: 4
+03:05.868	ID:4	[INFO: App       ] Round trip time: 29 ticks
+03:05.870	ID:4	[INFO: App       ] Energy stats:
+03:05.875	ID:4	[INFO: App       ] CPU: 62 ticks
+03:05.880	ID:4	[INFO: App       ] LPM: 34 ticks
+03:06.109	ID:8	[INFO: App       ] Current node rank: 0
+03:06.116	ID:8	[INFO: App       ] Sending request 16 to fd00::212:7406:6:606
+03:06.151	ID:6	[INFO: UDP-Server] Received packet for ID 8fd00::212:7408:8:808
+03:06.159	ID:6	[INFO: UDP-Server] Forwarding to destination ID 8 via next hop: fd00::212:7403:3:303
+03:06.211	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 8
+03:06.222	ID:3	[INFO: App       ] Forwarding packet to next hop 8 [fd00::212:7408:8:808]
+03:06.290	ID:8	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7408:8:808[INFO: App       ] Received msg destined to ID: 8
+03:06.294	ID:8	[INFO: App       ] Packet has reached final destination: 8
+03:06.298	ID:8	[INFO: App       ] Round trip time: 23 ticks
+03:06.300	ID:8	[INFO: App       ] Energy stats:
+03:06.305	ID:8	[INFO: App       ] CPU: 50 ticks
+03:06.309	ID:8	[INFO: App       ] LPM: 27 ticks
 03:07.021	ID:2	[INFO: App       ] Current node rank: 0
 03:07.029	ID:2	[INFO: App       ] Sending request 16 to fd00::212:7406:6:606
 03:07.048	ID:6	[INFO: UDP-Server] Received packet for ID 2fd00::212:7402:2:202
 03:07.056	ID:6	[INFO: UDP-Server] Forwarding to destination ID 2 via next hop: fd00::212:7407:7:707
-03:07.145	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 2
-03:07.156	ID:7	[INFO: App       ] Forwarding packet to next hop 2 [fd00::212:7402:2:202]
-03:07.227	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 2
-03:07.231	ID:2	[INFO: App       ] Packet has reached final destination: 2
-03:07.235	ID:2	[INFO: App       ] Round trip time: 26 ticks
-03:12.817	ID:3	[INFO: App       ] Current node rank: 0
-03:12.825	ID:3	[INFO: App       ] Sending request 17 to fd00::212:7406:6:606
-03:12.852	ID:6	[INFO: UDP-Server] Received packet for ID 3fd00::212:7403:3:303
-03:12.860	ID:6	[INFO: UDP-Server] Forwarding to destination ID 3 via next hop: fd00::212:7403:3:303
-03:12.907	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 3
-03:12.911	ID:3	[INFO: App       ] Packet has reached final destination: 3
-03:12.914	ID:3	[INFO: App       ] Round trip time: 11 ticks
+03:07.152	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 2
+03:07.164	ID:7	[INFO: App       ] Forwarding packet to next hop 2 [fd00::212:7402:2:202]
+03:07.228	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 2
+03:07.232	ID:2	[INFO: App       ] Packet has reached final destination: 2
+03:07.236	ID:2	[INFO: App       ] Round trip time: 26 ticks
+03:07.238	ID:2	[INFO: App       ] Energy stats:
+03:07.243	ID:2	[INFO: App       ] CPU: 56 ticks
+03:07.247	ID:2	[INFO: App       ] LPM: 31 ticks
+03:10.336	ID:5	[INFO: App       ] Current node rank: 0
+03:10.344	ID:5	[INFO: App       ] Sending request 17 to fd00::212:7406:6:606
+03:10.394	ID:6	[INFO: UDP-Server] Received packet for ID 5fd00::212:7405:5:505
+03:10.402	ID:6	[INFO: UDP-Server] Forwarding to destination ID 5 via next hop: fd00::212:7407:7:707
+03:10.449	ID:7	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7407:7:707[INFO: App       ] Received msg destined to ID: 5
+03:10.461	ID:7	[INFO: App       ] Forwarding packet to next hop 2 [fd00::212:7402:2:202]
+03:10.563	ID:2	[INFO: App       ] Received packet of length 2 from fd00::212:7407:7:707 to fd00::212:7402:2:202[INFO: App       ] Received msg destined to ID: 5
+03:10.574	ID:2	[INFO: App       ] Forwarding packet to next hop 5 [fd00::212:7405:5:505]
+03:10.626	ID:5	[INFO: App       ] Received packet of length 2 from fd00::212:7402:2:202 to fd00::212:7405:5:505[INFO: App       ] Received msg destined to ID: 5
+03:10.630	ID:5	[INFO: App       ] Packet has reached final destination: 5
+03:10.634	ID:5	[INFO: App       ] Round trip time: 37 ticks
+03:10.636	ID:5	[INFO: App       ] Energy stats:
+03:10.641	ID:5	[INFO: App       ] CPU: 78 ticks
+03:10.645	ID:5	[INFO: App       ] LPM: 44 ticks
 03:13.308	ID:1	[INFO: App       ] Current node rank: 0
 03:13.315	ID:1	[INFO: App       ] Sending request 16 to fd00::212:7406:6:606
+03:13.317	ID:7	[INFO: App       ] Current node rank: 0
+03:13.325	ID:7	[INFO: App       ] Sending request 16 to fd00::212:7406:6:606
 03:13.391	ID:6	[INFO: UDP-Server] Received packet for ID 1fd00::212:7401:1:101
-03:13.399	ID:6	[INFO: UDP-Server] Forwarding to destination ID 1 via next hop: fd00::212:7403:3:303
+03:13.400	ID:6	[INFO: UDP-Server] Forwarding to destination ID 1 via next hop: fd00::212:7403:3:303
+03:13.426	ID:6	[INFO: UDP-Server] Received packet for ID 7fd00::212:7407:7:707
+03:13.434	ID:6	[INFO: UDP-Server] Forwarding to destination ID 7 via next hop: fd00::212:7407:7:707
 03:13.435	ID:3	[INFO: App       ] Received packet of length 2 from fd00::212:7406:6:606 to fd00::212:7403:3:303[INFO: App       ] Received msg destined to ID: 1
 03:13.446	ID:3	[INFO: App       ] Forwarding packet to next hop 1 [fd00::212:7401:1:101]
 03:13.555	ID:1	[INFO: App       ] Received packet of length 2 from fd00::212:7403:3:303 to fd00::212:7401:1:101[INFO: App       ] Received msg destined to ID: 1
 03:13.559	ID:1	[INFO: App       ] Packet has reached final destination: 1
 03:13.563	ID:1	[INFO: App       ] Round trip time: 31 ticks
+03:13.565	ID:1	[INFO: App       ] Energy stats:
+03:13.570	ID:1	[INFO: App       ] CPU: 66 ticks
+03:13.574	ID:1	[INFO: App       ] LPM: 37 ticks
