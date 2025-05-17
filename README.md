@@ -96,7 +96,7 @@ To detect the presence of a wormhole attack in the simulated network, we used a 
 
 We logged packet send and acknowledgment times across all nodes in both scenarios (normal and wormhole). These logs were then used to calculate and compare RTTs. Anomalies in RTT—particularly consistently higher delays—served as indirect evidence of the presence of a wormhole.
 
-RTT calculation is done as follows 
+RTT calculation is done as follows..
 ```
 if(msg.dest_id == my_id) {
     LOG_INFO("Packet has reached final destination: %u\n", msg.dest_id);
